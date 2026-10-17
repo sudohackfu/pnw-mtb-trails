@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="TrailforksTrailBuilder"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:tf="http://trailforks.com/schema"
+  xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <metadata>
+    <name>Exit 27 - Already Decommissioned</name>
+  </metadata>
+  <trk>
+    <name>Demolished Singletrack</name>
+    <desc>Difficulty: Black Diamond | Status: Decommissioned | Length: 392m</desc>
+    <extensions>
+      <tf:title>Demolished Singletrack</tf:title>
+      <tf:difficulty>Black Diamond</tf:difficulty>
+      <tf:status>Decommissioned</tf:status>
+      <tf:color>#475569</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>DarkGray</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="47.498184" lon="-121.831160"></trkpt>
+      <trkpt lat="47.498267" lon="-121.830868"></trkpt>
+      <trkpt lat="47.498322" lon="-121.830710"></trkpt>
+      <trkpt lat="47.498377" lon="-121.830515"></trkpt>
+      <trkpt lat="47.498553" lon="-121.830389"></trkpt>
+      <trkpt lat="47.498655" lon="-121.830063"></trkpt>
+      <trkpt lat="47.498657" lon="-121.829681"></trkpt>
+      <trkpt lat="47.498578" lon="-121.829405"></trkpt>
+      <trkpt lat="47.498509" lon="-121.829084"></trkpt>
+      <trkpt lat="47.498481" lon="-121.828771"></trkpt>
+      <trkpt lat="47.498520" lon="-121.828636"></trkpt>
+      <trkpt lat="47.498630" lon="-121.828474"></trkpt>
+      <trkpt lat="47.498698" lon="-121.828348"></trkpt>
+      <trkpt lat="47.498682" lon="-121.828205"></trkpt>
+      <trkpt lat="47.498613" lon="-121.828039"></trkpt>
+      <trkpt lat="47.498553" lon="-121.827823"></trkpt>
+      <trkpt lat="47.498567" lon="-121.827661"></trkpt>
+      <trkpt lat="47.498610" lon="-121.827567"></trkpt>
+      <trkpt lat="47.498630" lon="-121.827413"></trkpt>
+      <trkpt lat="47.498701" lon="-121.827279"></trkpt>
+      <trkpt lat="47.498816" lon="-121.827173"></trkpt>
+      <trkpt lat="47.499001" lon="-121.827104"></trkpt>
+      <trkpt lat="47.499146" lon="-121.826862"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

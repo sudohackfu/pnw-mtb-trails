@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="TrailforksTrailBuilder"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:tf="http://trailforks.com/schema"
+  xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <metadata>
+    <name>Exit 27 - Will Be Decommissioned</name>
+  </metadata>
+  <trk>
+    <name>Cougar (swəwaʔ)</name>
+    <desc>Difficulty: Black Diamond | Status: Will Be Decommissioned | Length: 357m</desc>
+    <extensions>
+      <tf:title>Cougar (swəwaʔ)</tf:title>
+      <tf:difficulty>Black Diamond</tf:difficulty>
+      <tf:status>Will Be Decommissioned</tf:status>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Orange</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="47.495644" lon="-121.853474"></trkpt>
+      <trkpt lat="47.495598" lon="-121.853554"></trkpt>
+      <trkpt lat="47.495498" lon="-121.854017"></trkpt>
+      <trkpt lat="47.495389" lon="-121.854392"></trkpt>
+      <trkpt lat="47.495298" lon="-121.854725"></trkpt>
+      <trkpt lat="47.495232" lon="-121.854992"></trkpt>
+      <trkpt lat="47.495177" lon="-121.855243"></trkpt>
+      <trkpt lat="47.495165" lon="-121.855384"></trkpt>
+      <trkpt lat="47.495106" lon="-121.855477"></trkpt>
+      <trkpt lat="47.495006" lon="-121.855797"></trkpt>
+      <trkpt lat="47.494886" lon="-121.855951"></trkpt>
+      <trkpt lat="47.494794" lon="-121.856081"></trkpt>
+      <trkpt lat="47.494786" lon="-121.856259"></trkpt>
+      <trkpt lat="47.494844" lon="-121.856488"></trkpt>
+      <trkpt lat="47.494782" lon="-121.856759"></trkpt>
+      <trkpt lat="47.494802" lon="-121.857116"></trkpt>
+      <trkpt lat="47.494740" lon="-121.857430"></trkpt>
+      <trkpt lat="47.494651" lon="-121.857799"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Elk</name>
+    <desc>Difficulty: Black Diamond | Status: Will Be Decommissioned | Length: 378m</desc>
+    <extensions>
+      <tf:title>Elk</tf:title>
+      <tf:difficulty>Black Diamond</tf:difficulty>
+      <tf:status>Will Be Decommissioned</tf:status>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Orange</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="47.497684" lon="-121.852421"></trkpt>
+      <trkpt lat="47.497744" lon="-121.852167"></trkpt>
+      <trkpt lat="47.497876" lon="-121.852027"></trkpt>
+      <trkpt lat="47.497983" lon="-121.851961"></trkpt>
+      <trkpt lat="47.498053" lon="-121.851635"></trkpt>
+      <trkpt lat="47.498179" lon="-121.851541"></trkpt>
+      <trkpt lat="47.498337" lon="-121.851653"></trkpt>
+      <trkpt lat="47.498615" lon="-121.851877"></trkpt>
+      <trkpt lat="47.498930" lon="-121.852120"></trkpt>
+      <trkpt lat="47.499113" lon="-121.852064"></trkpt>
+      <trkpt lat="47.499359" lon="-121.852092"></trkpt>
+      <trkpt lat="47.499542" lon="-121.851849"></trkpt>
+      <trkpt lat="47.499750" lon="-121.851644"></trkpt>
+      <trkpt lat="47.499996" lon="-121.851354"></trkpt>
+      <trkpt lat="47.500167" lon="-121.851214"></trkpt>
+      <trkpt lat="47.500440" lon="-121.851315"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>sqigʷəc (Deer)</name>
+    <desc>Difficulty: Black Diamond | Status: Will Be Decommissioned | Length: 302m</desc>
+    <extensions>
+      <tf:title>sqigʷəc (Deer)</tf:title>
+      <tf:difficulty>Black Diamond</tf:difficulty>
+      <tf:status>Will Be Decommissioned</tf:status>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Orange</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="47.495644" lon="-121.853474"></trkpt>
+      <trkpt lat="47.495763" lon="-121.853605"></trkpt>
+      <trkpt lat="47.495882" lon="-121.853592"></trkpt>
+      <trkpt lat="47.496014" lon="-121.853145"></trkpt>
+      <trkpt lat="47.496124" lon="-121.852858"></trkpt>
+      <trkpt lat="47.496148" lon="-121.852670"></trkpt>
+      <trkpt lat="47.496380" lon="-121.852665"></trkpt>
+      <trkpt lat="47.496617" lon="-121.852822"></trkpt>
+      <trkpt lat="47.496911" lon="-121.852895"></trkpt>
+      <trkpt lat="47.497119" lon="-121.852961"></trkpt>
+      <trkpt lat="47.497390" lon="-121.852970"></trkpt>
+      <trkpt lat="47.497466" lon="-121.852832"></trkpt>
+      <trkpt lat="47.497489" lon="-121.852664"></trkpt>
+      <trkpt lat="47.497684" lon="-121.852421"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Return Policy Bypass South</name>
+    <desc>Difficulty: Double Black Diamond | Status: Will Be Decommissioned | Length: 1040m</desc>
+    <extensions>
+      <tf:title>Return Policy Bypass South</tf:title>
+      <tf:difficulty>Double Black Diamond</tf:difficulty>
+      <tf:status>Will Be Decommissioned</tf:status>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Orange</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="47.490533" lon="-121.830550"></trkpt>
+      <trkpt lat="47.490723" lon="-121.830617"></trkpt>
+      <trkpt lat="47.490858" lon="-121.830290"></trkpt>
+      <trkpt lat="47.490874" lon="-121.829907"></trkpt>
+      <trkpt lat="47.490783" lon="-121.829628"></trkpt>
+      <trkpt lat="47.490594" lon="-121.829389"></trkpt>
+      <trkpt lat="47.490599" lon="-121.829238"></trkpt>
+      <trkpt lat="47.490718" lon="-121.829150"></trkpt>
+      <trkpt lat="47.490853" lon="-121.829174"></trkpt>
+      <trkpt lat="47.490998" lon="-121.829293"></trkpt>
+      <trkpt lat="47.491230" lon="-121.829485"></trkpt>
+      <trkpt lat="47.491316" lon="-121.829437"></trkpt>
+      <trkpt lat="47.491354" lon="-121.829325"></trkpt>
+      <trkpt lat="47.491483" lon="-121.829333"></trkpt>
+      <trkpt lat="47.491537" lon="-121.829277"></trkpt>
+      <trkpt lat="47.491505" lon="-121.829086"></trkpt>
+      <trkpt lat="47.491375" lon="-121.828799"></trkpt>
+      <trkpt lat="47.491192" lon="-121.828663"></trkpt>
+      <trkpt lat="47.491095" lon="-121.828552"></trkpt>
+      <trkpt lat="47.490933" lon="-121.828241"></trkpt>
+      <trkpt lat="47.490810" lon="-121.827993"></trkpt>
+      <trkpt lat="47.490869" lon="-121.827954"></trkpt>
+      <trkpt lat="47.490998" lon="-121.828105"></trkpt>
+      <trkpt lat="47.491117" lon="-121.828177"></trkpt>
+      <trkpt lat="47.491181" lon="-121.828073"></trkpt>
+      <trkpt lat="47.491295" lon="-121.828113"></trkpt>
+      <trkpt lat="47.491650" lon="-121.828320"></trkpt>
+      <trkpt lat="47.491785" lon="-121.828304"></trkpt>
+      <trkpt lat="47.491828" lon="-121.828193"></trkpt>
+      <trkpt lat="47.491645" lon="-121.827826"></trkpt>
+      <trkpt lat="47.491338" lon="-121.827276"></trkpt>
+      <trkpt lat="47.491429" lon="-121.827228"></trkpt>
+      <trkpt lat="47.491564" lon="-121.827276"></trkpt>
+      <trkpt lat="47.491779" lon="-121.827459"></trkpt>
+      <trkpt lat="47.491823" lon="-121.827403"></trkpt>
+      <trkpt lat="47.491779" lon="-121.827172"></trkpt>
+      <trkpt lat="47.491839" lon="-121.827052"></trkpt>
+      <trkpt lat="47.491914" lon="-121.826981"></trkpt>
+      <trkpt lat="47.492044" lon="-121.827084"></trkpt>
+      <trkpt lat="47.492141" lon="-121.827324"></trkpt>
+      <trkpt lat="47.492259" lon="-121.827523"></trkpt>
+      <trkpt lat="47.492286" lon="-121.827403"></trkpt>
+      <trkpt lat="47.492329" lon="-121.827028"></trkpt>
+      <trkpt lat="47.492297" lon="-121.826837"></trkpt>
+      <trkpt lat="47.492178" lon="-121.826718"></trkpt>
+      <trkpt lat="47.492248" lon="-121.826542"></trkpt>
+      <trkpt lat="47.492399" lon="-121.826454"></trkpt>
+      <trkpt lat="47.492900" lon="-121.826630"></trkpt>
+      <trkpt lat="47.492873" lon="-121.826454"></trkpt>
+      <trkpt lat="47.492895" lon="-121.826319"></trkpt>
+      <trkpt lat="47.492981" lon="-121.826382"></trkpt>
+      <trkpt lat="47.493105" lon="-121.826454"></trkpt>
+      <trkpt lat="47.493154" lon="-121.826391"></trkpt>
+      <trkpt lat="47.493261" lon="-121.826199"></trkpt>
+      <trkpt lat="47.493347" lon="-121.826207"></trkpt>
+      <trkpt lat="47.493418" lon="-121.826311"></trkpt>
+      <trkpt lat="47.493575" lon="-121.826240"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Return Policy Bypass North</name>
+    <desc>Difficulty: Double Black Diamond | Status: Will Be Decommissioned | Length: 568m</desc>
+    <extensions>
+      <tf:title>Return Policy Bypass North</tf:title>
+      <tf:difficulty>Double Black Diamond</tf:difficulty>
+      <tf:status>Will Be Decommissioned</tf:status>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Orange</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="47.490618" lon="-121.831286"></trkpt>
+      <trkpt lat="47.490565" lon="-121.830652"></trkpt>
+      <trkpt lat="47.490533" lon="-121.830550"></trkpt>
+      <trkpt lat="47.490471" lon="-121.830356"></trkpt>
+      <trkpt lat="47.490390" lon="-121.830045"></trkpt>
+      <trkpt lat="47.490292" lon="-121.829795"></trkpt>
+      <trkpt lat="47.490136" lon="-121.829410"></trkpt>
+      <trkpt lat="47.489945" lon="-121.828723"></trkpt>
+      <trkpt lat="47.489851" lon="-121.828378"></trkpt>
+      <trkpt lat="47.489632" lon="-121.827984"></trkpt>
+      <trkpt lat="47.489395" lon="-121.827777"></trkpt>
+      <trkpt lat="47.489053" lon="-121.827490"></trkpt>
+      <trkpt lat="47.488718" lon="-121.827327"></trkpt>
+      <trkpt lat="47.488484" lon="-121.827136"></trkpt>
+      <trkpt lat="47.488168" lon="-121.826938"></trkpt>
+      <trkpt lat="47.487900" lon="-121.826832"></trkpt>
+      <trkpt lat="47.487432" lon="-121.826577"></trkpt>
+      <trkpt lat="47.487365" lon="-121.826442"></trkpt>
+      <trkpt lat="47.487451" lon="-121.826350"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
