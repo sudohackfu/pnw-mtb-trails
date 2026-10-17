@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Chuckanut & Blanchard - Sanctioned</name>
+    <name><![CDATA[Chuckanut and Blanchard - Sanctioned]]></name>
     <Style id="style_000000"><LineStyle><color>ff000000</color><width>4</width></LineStyle></Style>
-    <Style id="style_dc2626"><LineStyle><color>ff2626dc</color><width>4</width></LineStyle></Style>
     <Style id="style_0284c7"><LineStyle><color>ffc78402</color><width>4</width></LineStyle></Style>
+    <Style id="style_dc2626"><LineStyle><color>ff2626dc</color><width>4</width></LineStyle></Style>
     <Style id="style_22c55e"><LineStyle><color>ff5ec522</color><width>4</width></LineStyle></Style>
     <Placemark>
       <name><![CDATA[Interurban Trail]]></name>

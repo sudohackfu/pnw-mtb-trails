@@ -212,15 +212,15 @@ def main():
             
     print(f"Chuckanut parsed dynamically: {len(sanctioned)} sanctioned, {len(unsanctioned)} unsanctioned.")
     
-    export_layer(sanctioned, target_dir, "chuckanut_sanctioned", "Chuckanut & Blanchard - Sanctioned")
-    export_layer(unsanctioned, target_dir, "chuckanut_unsanctioned", "Chuckanut & Blanchard - Unsanctioned")
+    export_layer(sanctioned, target_dir, "chuckanut_sanctioned", "Chuckanut and Blanchard - Sanctioned")
+    export_layer(unsanctioned, target_dir, "chuckanut_unsanctioned", "Chuckanut and Blanchard - Unsanctioned")
     print("Chuckanut vector files generated successfully.")
 
 def export_layer(features, out_dir, prefix, label):
     with open(os.path.join(out_dir, f"{prefix}.geojson"), "w", encoding="utf-8") as f:
         json.dump({'type': 'FeatureCollection', 'features': features}, f, indent=2)
         
-    lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<kml xmlns="http://www.opengis.net/kml/2.2">', '  <Document>', f'    <name>{label}</name>']
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<kml xmlns="http://www.opengis.net/kml/2.2">', '  <Document>', f'    <name><![CDATA[{label}]]></name>']
     colors = set(f['properties']['stroke'] for f in features)
     for c in colors:
         clean = c.replace('#', '')
@@ -240,7 +240,7 @@ def export_layer(features, out_dir, prefix, label):
     with open(os.path.join(out_dir, f"{prefix}.kml"), "w", encoding="utf-8") as f:
         f.write('\n'.join(lines))
         
-    glines = ['<?xml version="1.0" encoding="UTF-8"?>', '<gpx version="1.1" creator="ChuckanutDynamicBuilder" xmlns="http://www.topografix.com/GPX/1/1" xmlns:tf="http://www.trailforks.com" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">', f'  <metadata><name>{label}</name></metadata>']
+    glines = ['<?xml version="1.0" encoding="UTF-8"?>', '<gpx version="1.1" creator="ChuckanutDynamicBuilder" xmlns="http://www.topografix.com/GPX/1/1" xmlns:tf="http://www.trailforks.com" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">', f'  <metadata><name><![CDATA[{label}]]></name></metadata>']
     for f in features:
         props = f['properties']
         glines.append('  <trk>')

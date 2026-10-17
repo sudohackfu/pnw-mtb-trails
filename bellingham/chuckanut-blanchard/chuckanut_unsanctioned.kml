@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Chuckanut & Blanchard - Unsanctioned</name>
+    <name><![CDATA[Chuckanut and Blanchard - Unsanctioned]]></name>
     <Style id="style_ea580c"><LineStyle><color>ff0c58ea</color><width>4</width></LineStyle></Style>
     <Placemark>
       <name><![CDATA[Pirate Singletrack (240666940)]]></name>
