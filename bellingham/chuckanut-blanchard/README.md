@@ -4,22 +4,23 @@ A geospatial dataset and regulatory inventory of the seaside mountain bike singl
 
 ---
 
+## Datasets & Exact API Specifications
+
+| Dataset / Source | Exact API Endpoint / Spatial Identifier | Purpose in Analysis |
+| :--- | :--- | :--- |
+| **OpenStreetMap Core API 0.6** | Bounding box: `(-122.520, 48.600, -122.420, 48.700)` | Way geometry, node elevations, surface materials, and trail tags. |
+| **WA DNR Blanchard Recreation Plan** | WA DNR Forest Practices GIS Portal | Blanchard State Forest authorized non-motorized trail network. |
+| **Washington State Parks GIS** | Larrabee State Park Boundary & Facility Inventory | Auditing pedestrian-only conservation restrictions (`bicycle=no`). |
+| **Trailforks Regions 1686 & 1687** | Chuckanut & Blanchard Directories | Community ground truth for seaside gravity descents and pirate lines. |
+
+---
+
 ## Land Management & Regulatory Context
 
 Rising directly from the saltwater shoreline of Samish Bay, Chuckanut and Blanchard Mountains feature some of the steepest, most rugged sandstone terrain in Western Washington:
 * **Larrabee State Park:** Managed by the **Washington State Parks and Recreation Commission**. Features strict enforcement against mountain bikes on pedestrian-only conservation footpaths.
 * **Blanchard State Forest:** Managed by the **Washington State Department of Natural Resources (WA DNR)**. A working state forest that hosts officially sanctioned technical gravity descents (*Double Black Diamond, Double Down*).
 * **Chuckanut Mountain Park:** Managed by **Whatcom County Parks & Recreation**.
-
----
-
-## Data Sources & Provenance
-
-This dataset was compiled from four primary sources:
-1. **OpenStreetMap (OSM) Core API 0.6:** High-resolution extraction covering bounding coordinates `48.600°N to 48.700°N` and `-122.520°W to -122.420°W`.
-2. **WA DNR Recreation Geodatabase:** Blanchard State Forest authorized non-motorized trail corridors.
-3. **Washington State Parks GIS:** Larrabee State Park boundary and trail inventory.
-4. **Trailforks Regions 1686 & 1687:** Regional ground truth for Chuckanut and Blanchard gravity lines.
 
 ---
 
@@ -60,6 +61,20 @@ This dataset was compiled from four primary sources:
 * *Rooty Ridge* (Dense root-carpet technical descent; Level 3 Black Diamond)
 * *Rooty Ridge Lower* (Steep fall-line loam chute; Level 3 Black Diamond)
 * *21 Unnamed Informal Singletrack Lines* (Active underground pirate descents)
+
+---
+
+## Reproducible Build Script
+
+The complete pipeline to re-query the OSM data, strip fire roads, isolate singletracks, apply ratings, and export all vector formats is provided in the local `scripts/` directory:
+
+```bash
+# From within this directory:
+python scripts/build_chuckanut.py
+```
+
+### Script Manifest:
+* **[`scripts/build_chuckanut.py`](./scripts/build_chuckanut.py):** Standalone Python script that queries the Chuckanut bounding box, applies the pedestrian filter, resolves ratings and names, and generates `chuckanut_sanctioned` and `chuckanut_unsanctioned` (GeoJSON, KML 2.2, GPX 1.1).
 
 ---
 

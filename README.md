@@ -23,15 +23,20 @@ flowchart TD
     Naming --> Output["Step 6: Multi-Format Vector Build<br>(GeoJSON, KML 2.2, GPX 1.1)"]
 ```
 
-### 1. Multi-Source Data Harvesting
-No single database contains an authentic picture of Pacific Northwest mountain biking. We harvest and cross-reference across four data domains:
-1. **Physical & Geometric Traces:** OpenStreetMap (OSM) multi-tile API queries capturing node coordinates, trail curvature, surface material, and local mapper notes.
-2. **Authoritative Government & Land Agency Baselines:** 
-   * Washington State Department of Natural Resources (WA DNR) Public Forest Practices transportation and recreation geodatabases.
-   * King County and Whatcom County Cadastral parcel databases (identifying public conservation vs. private commercial timber parcels).
-   * City of Bellingham and Whatcom County Parks master trail inventories.
-3. **Formal Stewardship Roster:** Whatcom Mountain Bike Coalition (WMBC) and Evergreen Mountain Bike Alliance (EMBA) officially adopted trail directories.
-4. **Community Riding Intelligence:** Trailforks regional databases, trail condition reports, and Strava GPS heatmaps to verify physical tire traffic and community upkeep.
+### 1. Authoritative Datasets & Exact API Specifications
+Every network is built from real, verifiable government and community databases:
+
+| Domain | Dataset / Service Name | Exact Identifier / API Endpoint | Purpose |
+| :--- | :--- | :--- | :--- |
+| **Physical Geometry** | OpenStreetMap (OSM) Core API 0.6 | `https://api.openstreetmap.org/api/0.6/map?bbox=min_lon,min_lat,max_lon,max_lat` | Sub-meter node coordinates, way geometry, surface, and width. |
+| **Physical Geometry** | Overpass API QL | `https://overpass-api.de/api/interpreter` | High-volume tag filtering and historical lineage audits. |
+| **Conservation Boundaries** | King County Cadastral Parcel Database | Parcel PIN `1423089001` (Rattlesnake Mountain NRCA) | Auditing RCW 79.71 state conservation boundary violations. |
+| **Forest Transportation** | WA DNR Public Forest Practices Layer | Washington State Department of Natural Resources GIS Portal | Identifying authorized forestry spurs vs. unauthorized trail breaches. |
+| **Recreation Easements** | City of Bellingham / Whatcom Land Trust | Whatcom County Auditor File Nos. `2018-0803004` & `2018-0807005` | 2,182-acre Galbraith Mountain Recreational Use Easement boundary. |
+| **State Forest Corridors** | WA DNR Blanchard State Forest GIS | Blanchard State Forest Non-Motorized Recreation Plan | Authorized gravity corridors (*Double Black Diamond, Double Down*). |
+| **County Park Master Plans** | Whatcom County Parks & Recreation GIS | Lookout Mountain Forest Preserve & Lake Whatcom Park Inventory | Legal park trail alignments and Stimpson Nature Reserve fences. |
+| **Official Trail Registers** | WMBC & EMBA Trail Inventories | Whatcom Mountain Bike Coalition & Evergreen Mountain Bike Alliance | Authorized maintenance rosters and directional flow rules. |
+| **Community Riding Intelligence** | Trailforks Regional Databases | Regions `431` (Galbraith), `1686` (Chuckanut), `1687` (Blanchard), `17820` (Lookout) | Real rider condition logs, community names, and secondary line tracking. |
 
 ### 2. Singletrack Isolation & Fire Road Exclusion
 We are exclusively concerned with **mountain bike singletrack trails**:
@@ -86,7 +91,9 @@ Difficulty ratings are assigned using a deterministic 4-tier hierarchy:
 
 ---
 
-## Repository Directory Structure
+## Repository Directory & Script Structure
+
+Every subfolder includes a dedicated `scripts/` directory containing the standalone, reproducible Python build script used to generate that exact dataset:
 
 ```text
 pnw-mtb-trails/
@@ -96,6 +103,8 @@ pnw-mtb-trails/
 │   ├── README.md                       # Regional I-90 corridor guide & agency boundaries
 │   └── exit-27/                        # Exit 27 / Rattlesnake Mountain unsanctioned network
 │       ├── README.md                   # Trail roster, King County PIN audit & status breakdown
+│       ├── scripts/
+│       │   └── build_exit27.py         # Standalone build script for Exit 27 vector datasets
 │       ├── exit27_unsanctioned_trails.kml
 │       ├── exit27_unsanctioned_network.geojson
 │       ├── exit27_unsanctioned_network.gpx
@@ -107,14 +116,20 @@ pnw-mtb-trails/
     ├── README.md                       # Whatcom County regional overview & easement guide
     ├── galbraith-mountain/
     │   ├── README.md                   # 2,182-acre easement history, roster & jump complexes
+    │   ├── scripts/
+    │   │   └── build_galbraith.py      # Standalone build script for Galbraith Mountain
     │   ├── galbraith_sanctioned.geojson / .kml / .gpx
     │   └── galbraith_unsanctioned.geojson / .kml / .gpx
     ├── chuckanut-blanchard/
     │   ├── README.md                   # Larrabee State Park & Blanchard Forest gravity lines
+    │   ├── scripts/
+    │   │   └── build_chuckanut.py      # Standalone build script for Chuckanut & Blanchard
     │   ├── chuckanut_sanctioned.geojson / .kml / .gpx
     │   └── chuckanut_unsanctioned.geojson / .kml / .gpx
     └── lookout-mountain/
         ├── README.md                   # Lake Whatcom, Sudden Valley & Stewart Mountain lines
+        ├── scripts/
+        │   └── build_lookout.py        # Standalone build script for Lookout & Stewart Mountain
         ├── lookout_sanctioned.geojson / .kml / .gpx
         └── lookout_unsanctioned.geojson / .kml / .gpx
 ```

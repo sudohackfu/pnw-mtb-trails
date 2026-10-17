@@ -4,22 +4,23 @@ A comprehensive geospatial dataset of the mountain bike singletrack trails acros
 
 ---
 
+## Datasets & Exact API Specifications
+
+| Dataset / Source | Exact API Endpoint / Spatial Identifier | Purpose in Analysis |
+| :--- | :--- | :--- |
+| **OpenStreetMap Core API 0.6** | Two sub-quadrant bboxes:<br>1. Lookout Mountain: `(-122.380, 48.690, -122.310, 48.770)`<br>2. Stewart Mountain / Lake Whatcom: `(-122.320, 48.720, -122.240, 48.780)` | Way geometry, node elevations, surface materials, and trail tags. |
+| **Whatcom County Parks Master Plan** | Whatcom County Parks & Recreation GIS Portal | Park boundaries, sanctioned singletrack alignments, and Stimpson Nature Reserve borders. |
+| **WA DNR Olsen Creek Block GIS** | WA DNR Forest Practices GIS Portal | State forest non-motorized recreation corridors. |
+| **Trailforks Region 17820 & Records** | Lookout Mountain & Lake Whatcom Directories | Community condition logs, underground builder names (*#5, #8*), and difficulty ratings. |
+
+---
+
 ## Land Management & Historical Context
 
 Situated along the eastern flank of Lake Whatcom, this network spans county park preserve lands and state timber:
 * **Lookout Mountain Forest Preserve:** Managed by **Whatcom County Parks & Recreation**. Features modern, machine-built and hand-finished gravity descents (*Cougar Ridge, Floam*) built to relieve trail pressure on Galbraith.
 * **Lake Whatcom Park & Stewart Mountain:** Features long sustained climbs and descents (*Chanterelle, Brown Pow*). Historically, Stewart Mountain hosted underground rogue freeride tracks (*Surfin' Turf, Brown Pow*), some of which were adopted by the county while others were decommissioned.
 * **Stimpson Family Nature Reserve (Conservation Boundary):** Directly adjacent to Lookout Mountain, this 350-acre reserve is strictly preserved for wildlife habitat; **all bicycle access is prohibited by county code**.
-
----
-
-## Data Sources & Provenance
-
-This dataset was compiled from four primary sources:
-1. **OpenStreetMap (OSM) Core API 0.6:** Multi-tile extraction covering bounding coordinates `48.690°N to 48.780°N` and `-122.380°W to -122.240°W`.
-2. **Whatcom County Parks & Recreation Department Master Plan:** Official trail alignment and conservation boundary geodatabase.
-3. **WA DNR Olsen Creek Block GIS:** Public forest practices recreation corridors.
-4. **Trailforks Region 17820 & Lake Whatcom Records:** Ground-truth confirmation of rideable descents and condition reports.
 
 ---
 
@@ -60,6 +61,20 @@ This dataset was compiled from four primary sources:
 * *#8* (Stewart Mountain user-maintained singletrack; Level 3 Black Diamond; `#ea580c`)
 * *BR* (Abandoned / decommissioned singletrack; Level 3 Black Diamond; `#475569`)
 * *18 Unnamed Informal Singletrack Lines* (Hand-cut timber chutes and bandit bypasses; `#ea580c`)
+
+---
+
+## Reproducible Build Script
+
+The complete pipeline to re-query the OSM data, strip service roads, isolate singletracks, apply ratings, and export all vector formats is provided in the local `scripts/` directory:
+
+```bash
+# From within this directory:
+python scripts/build_lookout.py
+```
+
+### Script Manifest:
+* **[`scripts/build_lookout.py`](./scripts/build_lookout.py):** Standalone Python script that queries the Lookout Mountain and Stewart Mountain bounding boxes, applies the Stimpson Reserve exclusion filter, resolves ratings and names, and generates `lookout_sanctioned` and `lookout_unsanctioned` (GeoJSON, KML 2.2, GPX 1.1).
 
 ---
 
