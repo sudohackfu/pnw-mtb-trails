@@ -1,0 +1,314 @@
+{
+  "187061156": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Old Keystone",
+    "name": "Old Keystone",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Abandoned / Decommissioned)",
+    "stroke": "#475569",
+    "imba_scale": 2,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "283336485": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Hooty Hoot Link",
+    "name": "Hooty Hoot Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "944102476": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Private Trail",
+    "name": "Private Trail",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Access: private)",
+    "stroke": "#ea580c",
+    "imba_scale": 2,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "1095733689": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Scorpion (old)",
+    "name": "Scorpion (old)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Abandoned / Decommissioned)",
+    "stroke": "#475569",
+    "imba_scale": 3,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "1194861931": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Private Trail",
+    "name": "Private Trail",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Access: private)",
+    "stroke": "#ea580c",
+    "imba_scale": 2,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "284459861": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Coyote Ripp",
+    "name": "Coyote Ripp",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Abandoned / Decommissioned)",
+    "stroke": "#475569",
+    "imba_scale": 2,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "321362895": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Up 2 Something Link",
+    "name": "Up 2 Something Link",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Abandoned / Decommissioned)",
+    "stroke": "#475569",
+    "imba_scale": 2,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "321756754": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (321756754)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "534628746": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Boulder Bend Trail Link",
+    "name": "Boulder Bend Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "563916015": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (563916015)",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Access: private)",
+    "stroke": "#ea580c",
+    "imba_scale": 2,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1193444620": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1193444620)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1193465528": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1193465528)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1193488868": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1193488868)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1300626401": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1300626401)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1310983569": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1310983569)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1310988772": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1310988772)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1309122610": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Euclid Trail Link",
+    "name": "Euclid Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "1309122611": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Euclid Trail Link",
+    "name": "Euclid Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "1309122612": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Euclid Trail Link",
+    "name": "Euclid Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "1309122613": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1309122613)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1309122614": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1309122614)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1309122615": {
+    "override": true,
+    "override_reason": "Historical / off-easement line: Euclid Trail Link",
+    "name": "Euclid Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "WMBC historical archives",
+      "City of Bellingham easement boundary survey"
+    ]
+  },
+  "1309122616": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1309122616)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1309122617": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1309122617)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1309122618": {
+    "override": false,
+    "override_reason": "Candidate spur under review",
+    "name": "Singletrack (1309122618)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  }
+}

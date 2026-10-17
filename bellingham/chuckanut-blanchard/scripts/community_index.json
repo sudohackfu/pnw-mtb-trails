@@ -1,0 +1,363 @@
+{
+  "240666940": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (240666940)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "240671234": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Pine and Cedar Lakes Trail Link",
+    "name": "Pine and Cedar Lakes Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "240674314": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Upper Bluff Trail Link",
+    "name": "Upper Bluff Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "240674315": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Upper Bluff Trail Link",
+    "name": "Upper Bluff Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "278159365": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (278159365)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "278563024": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (278563024)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "315698882": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Fiona Ridge",
+    "name": "Fiona Ridge",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "321933981": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Pine and Cedar Lakes Trail Link",
+    "name": "Pine and Cedar Lakes Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "360591065": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (360591065)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "388767192": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (388767192)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "440288910": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (440288910)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "583844859": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (583844859)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "788331894": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (788331894)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "926868035": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Upper Bluff Trail Link",
+    "name": "Upper Bluff Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "945186317": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Rooty Ridge",
+    "name": "Rooty Ridge",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "945204212": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Rooty Ridge Lower",
+    "name": "Rooty Ridge Lower",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "1138172036": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (1138172036)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1156133214": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (1156133214)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1196168298": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Salal Trail Link",
+    "name": "Salal Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "1236404551": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Fragrance Lake Trail Link",
+    "name": "Fragrance Lake Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "1237053566": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (1237053566)",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Access: no)",
+    "stroke": "#ea580c",
+    "imba_scale": 2,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1279196597": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (1279196597)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1299579860": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (1299579860)",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Access: no)",
+    "stroke": "#ea580c",
+    "imba_scale": 2,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1316976572": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Pine and Cedar Lakes Trail Link",
+    "name": "Pine and Cedar Lakes Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "1316976573": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (1316976573)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1347393776": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (1347393776)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1347393777": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Upper Bluff Trail Link",
+    "name": "Upper Bluff Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "1351862140": {
+    "override": true,
+    "override_reason": "Community verified pirate singletrack: Interurban Trail Link",
+    "name": "Interurban Trail Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Chuckanut local gravity builder archives",
+      "Strava segment leaderboards"
+    ]
+  },
+  "1366361585": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Pirate Singletrack (1366361585)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  }
+}

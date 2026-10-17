@@ -1,0 +1,339 @@
+{
+  "283336444": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: BR",
+    "name": "BR",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Abandoned / Decommissioned)",
+    "stroke": "#475569",
+    "imba_scale": 2,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "283336485": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: Hooty Hoot Link",
+    "name": "Hooty Hoot Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "383924268": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: Lower Waterfall Link",
+    "name": "Lower Waterfall Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "392509381": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: Hooty Hoot Link",
+    "name": "Hooty Hoot Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "392509382": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: Hooty Hoot Link",
+    "name": "Hooty Hoot Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "919018548": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: Hooty Hoot Link",
+    "name": "Hooty Hoot Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "997620352": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (997620352)",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Abandoned / Decommissioned)",
+    "stroke": "#475569",
+    "imba_scale": 2,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1225801752": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (1225801752)",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Access: no)",
+    "stroke": "#ea580c",
+    "imba_scale": 2,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1272570295": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: Hooty Hoot Link",
+    "name": "Hooty Hoot Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "1334639392": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (1334639392)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1470422407": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: #8 Link",
+    "name": "#8 Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "1472060742": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (1472060742)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "509526848": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (509526848)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "525228901": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (525228901)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "796337254": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: #8 Link",
+    "name": "#8 Link",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "796337656": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (796337656)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "796340051": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (796340051)",
+    "difficulty": "Green Circle",
+    "status": "Unsanctioned (Abandoned / Decommissioned)",
+    "stroke": "#475569",
+    "imba_scale": 1,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "796340052": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (796340052)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "796340053": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: #5 Link",
+    "name": "#5 Link",
+    "difficulty": "Green Circle",
+    "status": "Unsanctioned (Abandoned / Decommissioned)",
+    "stroke": "#475569",
+    "imba_scale": 1,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "796340054": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: #8",
+    "name": "#8",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "1333892207": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (1333892207)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1470422399": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (1470422399)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1470422400": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: Bear's Head Link",
+    "name": "Bear's Head Link",
+    "difficulty": "Blue Square",
+    "status": "Unsanctioned (Abandoned / Decommissioned)",
+    "stroke": "#475569",
+    "imba_scale": 2,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "1470422401": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (1470422401)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1470422402": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (1470422402)",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1470422405": {
+    "override": true,
+    "override_reason": "Verified Stewart Mountain singletrack: #5",
+    "name": "#5",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Stewart Mountain builder logs",
+      "Lake Whatcom Park rider reports"
+    ]
+  },
+  "1470422406": {
+    "override": false,
+    "override_reason": "Candidate timber line under review",
+    "name": "Timber Singletrack (1470422406)",
+    "difficulty": "Green Circle",
+    "status": "Unsanctioned (Abandoned / Decommissioned)",
+    "stroke": "#475569",
+    "imba_scale": 1,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  }
+}

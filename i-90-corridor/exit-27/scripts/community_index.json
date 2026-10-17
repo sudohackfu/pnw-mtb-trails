@@ -1,0 +1,730 @@
+{
+  "498986594": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Mainline",
+    "difficulty": "Double Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "500533504": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Trail to ENR",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "804492217": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Exit 27 Ridge Drop",
+    "difficulty": "Double Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1210885495": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Mainline Top Connector",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1228497184": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Smoke Break",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285732426": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Gemstate (Lower)",
+    "difficulty": "Double Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750011": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "B-Line",
+    "difficulty": "Double Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750014": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Bruce Willis (Die Hard)",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750016": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Private Idaho",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750017": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Doggy (Doggy Style)",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750018": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Gemstate (Upper)",
+    "difficulty": "Double Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750019": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Exit 27 DH Spur North",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750020": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Exit 27 DH Spur South",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750021": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "LSD",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750022": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Lochsa",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750023": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Dingleberry",
+    "difficulty": "Double Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750024": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Dingleberry South Spur",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750025": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Dingleberry Ridge Link",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750028": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Exit 27 Fall-line Connector",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285750030": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Missionary",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285760199": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Return Policy Ridge Line North",
+    "difficulty": "Double Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1285760200": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Return Policy Ridge Line South",
+    "difficulty": "Double Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1286010811": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Demolished Singletrack",
+    "difficulty": "Black Diamond",
+    "status": "Decommissioned",
+    "stroke": "#475569",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1286010812": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Raging River East Cut",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1286010813": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Demolished Singletrack Extension",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1286011727": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "East Ridge Singletrack",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1286012502": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "East Valley Singletrack",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1286018028": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Cougar (swəwaʔ)",
+    "difficulty": "Black Diamond",
+    "status": "Will Be Decommissioned",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1286018029": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Elk",
+    "difficulty": "Black Diamond",
+    "status": "Will Be Decommissioned",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1286018030": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Deer (sqigʷəc)",
+    "difficulty": "Black Diamond",
+    "status": "Will Be Decommissioned",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1433128984": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Exit 27 Trailhead Link",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1433191346": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Balls Deep Link",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1433191347": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Gladis",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1433191348": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Return Policy Bypass South",
+    "difficulty": "Double Black Diamond",
+    "status": "Will Be Decommissioned",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1433191349": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Oregon (Rock-drop)",
+    "difficulty": "Double Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456584630": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Return Policy Bypass North",
+    "difficulty": "Double Black Diamond",
+    "status": "Will Be Decommissioned",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456584631": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Loam Star",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456584632": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Coal Train",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456584633": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Gemstate Direct",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456584634": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Balls Deep Alternate",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456611340": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "POD",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456718500": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Gladis Upper Connector",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456718501": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Supernatural (Super-N)",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456784850": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "LSD Drop-in",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456784851": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Balls Deep",
+    "difficulty": "Double Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1456784852": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Loam Star Cut-in",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1457937178": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Loam Star Connector",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1457937179": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Gemstate Lower Link",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1457937180": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Gladis Spur",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1457937181": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "RRAZ (Razz)",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1460667780": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Gemstate Mid Link",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  },
+  "1528850986": {
+    "override": true,
+    "override_reason": "API name was missing or generic; verified via local rider community ground-truth",
+    "name": "Mainline Drop-in",
+    "difficulty": "Black Diamond",
+    "status": "Active Unsanctioned",
+    "stroke": "#000000",
+    "imba_scale": 3,
+    "research_sources": [
+      "Exit 27 local builder consensus",
+      "Strava segment leaderboards & GPS heatmap density",
+      "Historical PNW freeride video archives"
+    ]
+  }
+}

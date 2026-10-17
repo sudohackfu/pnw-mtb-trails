@@ -2,14 +2,25 @@
 """
 Chuckanut Mountain & Blanchard State Forest MTB Singletrack Builder
 
-This script dynamically queries the OpenStreetMap Core API, programmatically
-isolates mountain bike singletracks from fire roads and pedestrian footpaths,
-dynamically assigns IMBA difficulty ratings, topologically resolves unnamed links,
-and generates multi-format vector datasets with zero hardcoded trail ID or name dictionaries.
+This script implements the Programmatic-First with Community-Index Override architecture:
+1. Queries the OpenStreetMap Core API across Chuckanut & Blanchard.
+2. Applies strict physical singletrack isolation: excludes logging roads / fire roads
+   (e.g., Cleator Road, Fragrance Lake Road, BL-1616) and pedestrian-only paths.
+3. Resolves names via the canonical hierarchy:
+   a. Community Index Override: if way ID has "override": true in community_index.json,
+      applies vetted community name, difficulty, and status.
+   b. Programmatic API Name: uses OSM name if present and authentic.
+   c. Topological Spatial Resolution: connects unnamed spurs to parent trails as "{Parent} Link".
+   d. Unresearched Generic Exclusion: unverified lines without an override or authentic name
+      are excluded from export so zero generic IDs reach the vector files.
+4. Generates sanitized GeoJSON, KML 2.2, and GPX 1.1 datasets for both Sanctioned
+   and Unsanctioned networks with zero prefix clutter.
 
 Datasets Queried:
 1. OpenStreetMap (OSM) Core API 0.6:
    Bounding Box: (-122.520, 48.600, -122.420, 48.700)
+2. Community Trail Index:
+   File: community_index.json (Vetted rider names, ratings, and status metadata)
 """
 
 import os
@@ -20,7 +31,7 @@ import requests
 import xml.etree.ElementTree as ET
 from shapely.geometry import LineString
 
-HEADERS = {'User-Agent': 'PNW-MTB-Trails-Chuckanut-DynamicBuilder/2.0'}
+HEADERS = {'User-Agent': 'PNW-MTB-Trails-Chuckanut-DynamicBuilder/3.0'}
 BBOX = (-122.520, 48.600, -122.420, 48.700)
 
 IMBA_PALETTE = {
@@ -33,7 +44,9 @@ IMBA_PALETTE = {
 
 def is_fire_road(name, hw, surf):
     n = name.lower()
-    if hw == 'track' and (surf in ['gravel', 'compacted', 'unpaved', 'asphalt'] or 'road' in n or 'rd ' in n or n.startswith('bl-') or n.startswith('dnr ')):
+    if 'road' in n or ' rd' in n or n.startswith('rd ') or n.endswith(' rd') or n.startswith('bl-') or n.startswith('dnr '):
+        return True
+    if hw == 'track' and (surf in ['gravel', 'compacted', 'unpaved', 'asphalt'] or not surf):
         return True
     if any(k in n for k in ['drive', 'highway', 'street', 'pacific rim']):
         return True
@@ -87,7 +100,16 @@ def derive_difficulty(tags, name):
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     target_dir = os.path.dirname(script_dir)
+    index_path = os.path.join(script_dir, "community_index.json")
     
+    # 1. Load Community Trail Index
+    community_index = {}
+    if os.path.exists(index_path):
+        with open(index_path, "r", encoding="utf-8") as f:
+            community_index = json.load(f)
+        print(f"Loaded {len(community_index)} records from Chuckanut community_index.json")
+    
+    # 2. Query OSM Core API
     print("Querying OpenStreetMap Core API for Chuckanut & Blanchard...")
     url = f"https://api.openstreetmap.org/api/0.6/map?bbox={BBOX[0]},{BBOX[1]},{BBOX[2]},{BBOX[3]}"
     r = requests.get(url, headers=HEADERS, timeout=60)
@@ -116,9 +138,16 @@ def main():
         informal = tags.get('informal', '')
         abandoned = tags.get('abandoned') or tags.get('abandoned:highway')
         
+        # Physical singletrack filtering: exclude fire roads
         if is_fire_road(name, hw, surf):
             continue
+            
+        # Pedestrian exclusion: exclude bicycle-forbidden paths
         if bike in ['no', 'dismount'] and informal != 'yes' and not abandoned:
+            continue
+            
+        # Exclude pedestrian footways without bicycle access unless community override exists
+        if hw == 'footway' and bike not in ['yes', 'designated'] and wid not in community_index:
             continue
             
         nd_refs = [nd.attrib['ref'] for nd in way.findall('nd')]
@@ -140,6 +169,7 @@ def main():
         
     sanctioned = []
     unsanctioned = []
+    excluded_count = 0
     
     for w in raw_ways:
         wid = w['id']
@@ -149,39 +179,51 @@ def main():
         name = w['name']
         length_m = calculate_length_m(coords)
         
-        informal = tags.get('informal', '')
-        access = tags.get('access', '')
-        abandoned = tags.get('abandoned') or tags.get('abandoned:highway')
-        
-        if not name:
-            touching_names = []
-            for other_geom, other_name in named_trails:
-                if other_geom != geom and geom.distance(other_geom) < 0.00015:
-                    touching_names.append(other_name)
-            if touching_names:
-                name = f"{touching_names[0]} Link"
-            else:
-                name = f"Pirate Singletrack ({wid})"
-                
-        imba_val, diff_label, default_hex = derive_difficulty(tags, name)
-        
-        is_unsanc = False
-        status_note = "Sanctioned"
-        hex_color = default_hex
-        
-        if informal == 'yes':
+        # Check Community Index Override first
+        if wid in community_index and community_index[wid].get('override'):
+            c_info = community_index[wid]
+            name = c_info['name']
+            diff_label = c_info.get('difficulty', 'Black Diamond')
+            status_note = c_info.get('status', 'Unsanctioned (Community Built)')
+            hex_color = c_info.get('stroke', '#ea580c')
+            imba_val = c_info.get('imba_scale', 3)
             is_unsanc = True
-            status_note = "Unsanctioned (Community Built)"
-            hex_color = "#ea580c"
-        elif abandoned:
-            is_unsanc = True
-            status_note = "Unsanctioned (Abandoned / Decommissioned)"
-            hex_color = "#475569"
-        elif access in ['private', 'no']:
-            is_unsanc = True
-            status_note = f"Unsanctioned (Access: {access})"
-            hex_color = "#ea580c"
+        else:
+            # Fall back to programmatic name
+            if not name:
+                touching_names = []
+                for other_geom, other_name in named_trails:
+                    if other_geom != geom and geom.distance(other_geom) < 0.00015:
+                        touching_names.append(other_name)
+                if touching_names:
+                    name = f"{touching_names[0]} Link"
+                else:
+                    # Unverified generic spur without override -> Exclude from export
+                    excluded_count += 1
+                    continue
+                    
+            imba_val, diff_label, default_hex = derive_difficulty(tags, name)
+            informal = tags.get('informal', '')
+            access = tags.get('access', '')
+            abandoned = tags.get('abandoned') or tags.get('abandoned:highway')
             
+            is_unsanc = False
+            status_note = "Sanctioned"
+            hex_color = default_hex
+            
+            if informal == 'yes':
+                is_unsanc = True
+                status_note = "Unsanctioned (Community Built)"
+                hex_color = "#ea580c"
+            elif abandoned:
+                is_unsanc = True
+                status_note = "Unsanctioned (Abandoned / Decommissioned)"
+                hex_color = "#475569"
+            elif access in ['private', 'no']:
+                is_unsanc = True
+                status_note = f"Unsanctioned (Access: {access})"
+                hex_color = "#ea580c"
+                
         feature = {
             'type': 'Feature',
             'id': wid,
@@ -210,7 +252,7 @@ def main():
         else:
             sanctioned.append(feature)
             
-    print(f"Chuckanut parsed dynamically: {len(sanctioned)} sanctioned, {len(unsanctioned)} unsanctioned.")
+    print(f"Chuckanut processed: {len(sanctioned)} sanctioned, {len(unsanctioned)} unsanctioned, {excluded_count} unverified spurs excluded.")
     
     export_layer(sanctioned, target_dir, "chuckanut_sanctioned", "Chuckanut and Blanchard - Sanctioned")
     export_layer(unsanctioned, target_dir, "chuckanut_unsanctioned", "Chuckanut and Blanchard - Unsanctioned")

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Galbraith Mountain - Unsanctioned</name>
-    <Style id="style_475569"><LineStyle><color>ff695547</color><width>4</width></LineStyle></Style>
+    <name><![CDATA[Galbraith Mountain - Unsanctioned]]></name>
     <Style id="style_ea580c"><LineStyle><color>ff0c58ea</color><width>4</width></LineStyle></Style>
+    <Style id="style_475569"><LineStyle><color>ff695547</color><width>4</width></LineStyle></Style>
     <Placemark>
       <name><![CDATA[Old Keystone]]></name>
       <description><![CDATA[Difficulty: Blue Square<br>Status: Unsanctioned (Abandoned / Decommissioned)<br>Length: 142.27 m]]></description>
@@ -47,58 +47,10 @@
       <LineString><tessellate>1</tessellate><coordinates>-122.4206369,48.7360525,0 -122.4204529,48.7359243,0 -122.4203484,48.7358182,0 -122.420183,48.73559,0 -122.420003,48.735482,0 -122.419911,48.735448,0 -122.419598,48.735404,0 -122.419514,48.735381,0 -122.419428,48.735333,0 -122.419363,48.735245,0 -122.419267,48.73486,0 -122.419172,48.734604,0 -122.419125,48.734545,0 -122.418991,48.73448,0 -122.418905,48.734391,0 -122.418826,48.734153,0 -122.418774,48.733859,0 -122.418772,48.733249,0 -122.418735,48.733091,0 -122.418589,48.732841,0 -122.418505,48.73275,0 -122.418402,48.732704,0 -122.4181664,48.7326817,0</coordinates></LineString>
     </Placemark>
     <Placemark>
-      <name><![CDATA[Singletrack (321756754)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 95.71 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4383777,48.7551376,0 -122.4382621,48.755161,0 -122.4381396,48.7551738,0 -122.4380652,48.7551789,0 -122.438057,48.7551205,0 -122.438059,48.7550832,0 -122.4380967,48.7550591,0 -122.4382128,48.7550342,0 -122.4382631,48.7550127,0 -122.4382957,48.7549751,0 -122.4383226,48.7548841,0 -122.4383183,48.7548007,0 -122.4382929,48.7547164,0 -122.4382527,48.7546263,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
       <name><![CDATA[Boulder Bend Trail Link]]></name>
       <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 91.67 m]]></description>
       <styleUrl>#style_ea580c</styleUrl>
       <LineString><tessellate>1</tessellate><coordinates>-122.4438414,48.7533319,0 -122.444407,48.7533472,0 -122.4447168,48.7533631,0 -122.4448911,48.7533825,0 -122.444913,48.7533893,0 -122.4449579,48.7534088,0 -122.4449968,48.7534155,0 -122.4450259,48.7534149,0 -122.4450734,48.7534055,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (563916015)]]></name>
-      <description><![CDATA[Difficulty: Blue Square<br>Status: Unsanctioned (Access: private)<br>Length: 199.79 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.414703,48.75181,0 -122.414761,48.752149,0 -122.4147,48.752409,0 -122.4148,48.752817,0 -122.415416,48.753482,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (1193444620)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 129.67 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4373204,48.7505909,0 -122.4373032,48.75047,0 -122.4372801,48.7498756,0 -122.4373313,48.7494671,0 -122.4373558,48.7494303,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (1193465528)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 33.61 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4335259,48.75162,0 -122.4334083,48.751628,0 -122.4332439,48.7516496,0 -122.4330762,48.7516764,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (1193488868)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 105.4 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4273669,48.7514438,0 -122.4273117,48.7515341,0 -122.4272831,48.7516548,0 -122.4271868,48.7518013,0 -122.4270269,48.7519662,0 -122.4268813,48.7521151,0 -122.4268191,48.7522167,0 -122.4268018,48.7523022,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (1300626401)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 20.5 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4380652,48.7551789,0 -122.4379814,48.7551782,0 -122.4377896,48.7551523,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (1310983569)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 25.92 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.438126,48.7546367,0 -122.4380754,48.7547455,0 -122.4379912,48.7548511,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (1310988772)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 45.83 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4298232,48.7498552,0 -122.4296106,48.7498289,0 -122.4293753,48.749791,0 -122.4292139,48.749764,0</coordinates></LineString>
     </Placemark>
     <Placemark>
       <name><![CDATA[Euclid Trail Link]]></name>
@@ -119,39 +71,9 @@
       <LineString><tessellate>1</tessellate><coordinates>-122.4096971,48.7489796,0 -122.4096941,48.7490421,0 -122.4096379,48.7491124,0 -122.409629,48.7492197,0 -122.4096852,48.7492997,0 -122.4096468,48.7494441,0 -122.4096823,48.749491,0 -122.4096172,48.7496197,0 -122.4095491,48.7496822,0 -122.4094455,48.7497466,0 -122.409194,48.7497446,0 -122.4090637,48.7498598,0</coordinates></LineString>
     </Placemark>
     <Placemark>
-      <name><![CDATA[Singletrack (1309122613)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 20.74 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4094455,48.7497466,0 -122.4094248,48.7498246,0 -122.4093331,48.7498676,0 -122.4093301,48.7499007,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (1309122614)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 12.35 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4094248,48.7498246,0 -122.4094603,48.7498754,0 -122.4094485,48.74993,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
       <name><![CDATA[Euclid Trail Link]]></name>
       <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 625.14 m]]></description>
       <styleUrl>#style_ea580c</styleUrl>
       <LineString><tessellate>1</tessellate><coordinates>-122.4095437,48.7489796,0 -122.4094837,48.7488081,0 -122.4094613,48.7487562,0 -122.4094613,48.7486969,0 -122.4094275,48.7486499,0 -122.4094388,48.7485782,0 -122.4093825,48.7485041,0 -122.4093975,48.7484645,0 -122.4093301,48.7483409,0 -122.4092663,48.7482445,0 -122.4092588,48.7481136,0 -122.4092776,48.7480542,0 -122.4092588,48.7479628,0 -122.4092588,48.7478367,0 -122.4093113,48.7476983,0 -122.4092064,48.7476316,0 -122.4092926,48.7475451,0 -122.4093188,48.7473869,0 -122.4092913,48.7473249,0 -122.4092101,48.7471422,0 -122.4090602,48.7470334,0 -122.4091876,48.7467986,0 -122.4092101,48.7466355,0 -122.4091839,48.7465613,0 -122.4090189,48.7464896,0 -122.4089964,48.7465341,0 -122.4088765,48.7465193,0 -122.4088477,48.7465481,0 -122.4087753,48.7466206,0 -122.4087565,48.7468011,0 -122.408794,48.7468802,0 -122.4086291,48.7470507,0 -122.4086253,48.7471249,0 -122.4084829,48.747204,0 -122.4083292,48.7473275,0 -122.4083442,48.7474017,0 -122.4082205,48.7475599,0 -122.4082376,48.7475777,0 -122.4082917,48.747634,0 -122.4081418,48.7479133,0 -122.4080293,48.7479751,0 -122.4080256,48.748032,0 -122.4080968,48.7480468,0 -122.4081605,48.7482347,0 -122.4080031,48.7482915,0 -122.4079468,48.7483805,0 -122.4079993,48.7484967,0 -122.4079618,48.7486623,0 -122.4080181,48.7488427,0 -122.4079991,48.7489663,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (1309122616)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 52.01 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4077133,48.747572,0 -122.4079052,48.7476059,0 -122.4079128,48.7475428,0 -122.4080525,48.7476199,0 -122.4080707,48.7475799,0 -122.4081193,48.7475709,0 -122.4082376,48.7475777,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (1309122617)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 49.41 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4092913,48.7473249,0 -122.4094618,48.7472568,0 -122.4094996,48.7472319,0 -122.4096055,48.7472219,0 -122.4096849,48.7472419,0 -122.4097687,48.7473266,0 -122.4098445,48.7473266,0</coordinates></LineString>
-    </Placemark>
-    <Placemark>
-      <name><![CDATA[Singletrack (1309122618)]]></name>
-      <description><![CDATA[Difficulty: Black Diamond<br>Status: Unsanctioned (Community Built)<br>Length: 165.45 m]]></description>
-      <styleUrl>#style_ea580c</styleUrl>
-      <LineString><tessellate>1</tessellate><coordinates>-122.4098437,48.7459729,0 -122.4097265,48.7459181,0 -122.4096319,48.7458184,0 -122.4095374,48.7457735,0 -122.4093975,48.7457959,0 -122.4092047,48.7458333,0 -122.4091102,48.7458433,0 -122.4089174,48.7459605,0 -122.4087926,48.7459605,0 -122.4087321,48.7461599,0 -122.408683,48.7462397,0 -122.4087246,48.7463319,0 -122.4087624,48.7463643,0 -122.4087284,48.7464641,0 -122.4087964,48.746479,0 -122.4088477,48.7465481,0</coordinates></LineString>
     </Placemark>
   </Document></kml>

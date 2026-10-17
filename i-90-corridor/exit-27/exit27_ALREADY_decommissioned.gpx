@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="Exit27DynamicBuilder" xmlns="http://www.topografix.com/GPX/1/1" xmlns:tf="http://www.trailforks.com" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
-  <metadata><name>Exit 27 - ALREADY Decommissioned</name></metadata>
+  <metadata><name><![CDATA[Exit 27 - ALREADY Decommissioned]]></name></metadata>
   <trk>
     <name><![CDATA[Demolished Singletrack]]></name>
-    <desc><![CDATA[Status: ALREADY Decommissioned | Difficulty: Double Black Diamond]]></desc>
+    <desc><![CDATA[Status: Decommissioned | Difficulty: Black Diamond]]></desc>
     <extensions>
-      <tf:difficulty>4</tf:difficulty>
+      <tf:difficulty>3</tf:difficulty>
       <tf:color>#475569</tf:color>
       <gpxx:TrackExtension>
         <gpxx:DisplayColor>#475569</gpxx:DisplayColor>

@@ -2,11 +2,19 @@
 """
 Galbraith Mountain MTB Singletrack Builder & Vector Generator
 
-This script dynamically queries the OpenStreetMap Core API across the 4 Galbraith
-quadrants, programmatically isolates mountain bike singletracks from fire roads and
-pedestrian-only paths, dynamically assigns IMBA difficulty ratings based on physical
-tags and flow attributes, topologically resolves unnamed links, and generates
-multi-format vector datasets with zero hardcoded trail ID or name dictionaries.
+This script implements the Programmatic-First with Community-Index Override architecture:
+1. Queries the OpenStreetMap Core API across the 4 Galbraith sub-quadrant bboxes.
+2. Applies strict physical singletrack isolation: excludes logging roads / gravel doubletracks
+   (e.g., Tower Road, Pipeline Road, RD 2000, 3000 road spurs) and pedestrian-only paths.
+3. Resolves names via the canonical hierarchy:
+   a. Community Index Override: if way ID has "override": true in community_index.json,
+      applies vetted community name, difficulty, and status.
+   b. Programmatic API Name: uses OSM name if present and authentic.
+   c. Topological Spatial Resolution: connects unnamed spurs to parent trails as "{Parent} Link".
+   d. Unresearched Generic Exclusion: unverified lines without an override or authentic name
+      are excluded from export so zero generic IDs reach the vector files.
+4. Generates sanitized GeoJSON, KML 2.2, and GPX 1.1 datasets for both Sanctioned
+   and Unsanctioned networks with zero prefix clutter.
 
 Datasets Queried:
 1. OpenStreetMap (OSM) Core API 0.6:
@@ -15,6 +23,8 @@ Datasets Queried:
    - (-122.415, 48.695, -122.380, 48.730)
    - (-122.450, 48.730, -122.415, 48.760)
    - (-122.415, 48.730, -122.380, 48.760)
+2. Community Trail Index:
+   File: community_index.json (Vetted rider names, ratings, and status metadata)
 """
 
 import os
@@ -25,13 +35,13 @@ import requests
 import xml.etree.ElementTree as ET
 from shapely.geometry import LineString
 
-HEADERS = {'User-Agent': 'PNW-MTB-Trails-Galbraith-DynamicBuilder/2.0'}
+HEADERS = {'User-Agent': 'PNW-MTB-Trails-Galbraith-DynamicBuilder/3.0'}
 
 TILES = [
     (-122.450, 48.695, -122.415, 48.730),
     (-122.415, 48.695, -122.380, 48.730),
     (-122.450, 48.730, -122.415, 48.760),
-    (-122.450, 48.730, -122.380, 48.760),
+    (-122.415, 48.730, -122.380, 48.760),
 ]
 
 IMBA_PALETTE = {
@@ -44,9 +54,11 @@ IMBA_PALETTE = {
 
 def is_fire_road(name, hw, surf):
     n = name.lower()
-    if hw == 'track' and (surf in ['gravel', 'compacted', 'unpaved', 'asphalt'] or 'road' in n or 'rd ' in n or n.startswith('rd')):
+    if 'road' in n or ' rd' in n or n.startswith('rd ') or n.endswith(' rd') or n.startswith('pipeline') or n.startswith('tower'):
         return True
-    if any(k in n for k in ['drive', 'highway', 'street', 'pipeline road', 'tower road']):
+    if hw == 'track' and (surf in ['gravel', 'compacted', 'unpaved', 'asphalt'] or not surf):
+        return True
+    if any(k in n for k in ['drive', 'highway', 'street']):
         return True
     return False
 
@@ -66,8 +78,6 @@ def calculate_length_m(coords):
     return round(total, 2)
 
 def derive_difficulty(tags, name):
-    """Dynamically determine IMBA rating without hardcoded name lookups."""
-    # 1. Explicit IMBA scale tag
     if tags.get('mtb:scale:imba'):
         try:
             val = int(tags['mtb:scale:imba'])
@@ -76,7 +86,6 @@ def derive_difficulty(tags, name):
         except ValueError:
             pass
             
-    # 2. Standard OSM mtb:scale tag
     if tags.get('mtb:scale'):
         try:
             val = min(int(tags['mtb:scale']) + 1, 5)
@@ -85,7 +94,6 @@ def derive_difficulty(tags, name):
         except ValueError:
             pass
 
-    # 3. Dynamic attribute and text heuristics
     n = name.lower()
     if 'pro' in n or 'fest' in n or 'shark' in n:
         return 5, 'Pro-Line', '#8b5cf6'
@@ -96,17 +104,23 @@ def derive_difficulty(tags, name):
     if tags.get('informal') == 'yes':
         return 3, 'Black Diamond', '#dc2626'
         
-    # Check surface and cycleway type for beginner classification
     if tags.get('highway') == 'cycleway' or tags.get('surface') in ['gravel', 'compacted'] or 'bunny' in n:
         return 1, 'Green Circle', '#22c55e'
         
-    # Standard intermediate singletrack default
     return 2, 'Blue Square', '#0284c7'
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     target_dir = os.path.dirname(script_dir)
+    index_path = os.path.join(script_dir, "community_index.json")
     
+    # 1. Load Community Trail Index
+    community_index = {}
+    if os.path.exists(index_path):
+        with open(index_path, "r", encoding="utf-8") as f:
+            community_index = json.load(f)
+        print(f"Loaded {len(community_index)} records from Galbraith community_index.json")
+        
     nodes = {}
     ways = {}
     print("Querying OpenStreetMap Core API across Galbraith 4 quadrants...")
@@ -140,12 +154,16 @@ def main():
         informal = tags.get('informal', '')
         abandoned = tags.get('abandoned') or tags.get('abandoned:highway')
         
-        # Filter fire roads dynamically
+        # Physical singletrack filtering: exclude fire roads
         if is_fire_road(name, hw, surf):
             continue
             
-        # Filter pedestrian-only paths dynamically
+        # Pedestrian exclusion: exclude bicycle-forbidden paths
         if bike in ['no', 'dismount'] and informal != 'yes' and not abandoned:
+            continue
+            
+        # Exclude pedestrian footways without bicycle access unless community override exists
+        if hw == 'footway' and bike not in ['yes', 'designated'] and wid not in community_index:
             continue
             
         coords = [nodes[ref] for ref in w['nodes'] if ref in nodes]
@@ -166,6 +184,7 @@ def main():
         
     sanctioned = []
     unsanctioned = []
+    excluded_count = 0
     
     for w in raw_ways:
         wid = w['id']
@@ -175,41 +194,51 @@ def main():
         name = w['name']
         length_m = calculate_length_m(coords)
         
-        informal = tags.get('informal', '')
-        access = tags.get('access', '')
-        abandoned = tags.get('abandoned') or tags.get('abandoned:highway')
-        
-        # Dynamic topological naming for unnamed links
-        if not name:
-            touching_names = []
-            for other_geom, other_name in named_trails:
-                if other_geom != geom and geom.distance(other_geom) < 0.00015:
-                    touching_names.append(other_name)
-            if touching_names:
-                name = f"{touching_names[0]} Link"
-            else:
-                name = f"Singletrack ({wid})"
-                
-        imba_val, diff_label, default_hex = derive_difficulty(tags, name)
-        
-        # Dynamic governance classification
-        is_unsanc = False
-        status_note = "Sanctioned (Recreation Easement)"
-        hex_color = default_hex
-        
-        if informal == 'yes':
+        # Check Community Index Override first
+        if wid in community_index and community_index[wid].get('override'):
+            c_info = community_index[wid]
+            name = c_info['name']
+            diff_label = c_info.get('difficulty', 'Black Diamond')
+            status_note = c_info.get('status', 'Unsanctioned (Community Built)')
+            hex_color = c_info.get('stroke', '#ea580c')
+            imba_val = c_info.get('imba_scale', 3)
             is_unsanc = True
-            status_note = "Unsanctioned (Community Built)"
-            hex_color = "#ea580c"
-        elif abandoned:
-            is_unsanc = True
-            status_note = "Unsanctioned (Abandoned / Decommissioned)"
-            hex_color = "#475569"
-        elif access in ['private', 'no']:
-            is_unsanc = True
-            status_note = f"Unsanctioned (Access: {access})"
-            hex_color = "#ea580c"
+        else:
+            # Fall back to programmatic name
+            if not name:
+                touching_names = []
+                for other_geom, other_name in named_trails:
+                    if other_geom != geom and geom.distance(other_geom) < 0.00015:
+                        touching_names.append(other_name)
+                if touching_names:
+                    name = f"{touching_names[0]} Link"
+                else:
+                    # Unverified generic spur without override -> Exclude from export
+                    excluded_count += 1
+                    continue
+                    
+            imba_val, diff_label, default_hex = derive_difficulty(tags, name)
+            informal = tags.get('informal', '')
+            access = tags.get('access', '')
+            abandoned = tags.get('abandoned') or tags.get('abandoned:highway')
             
+            is_unsanc = False
+            status_note = "Sanctioned (Recreation Easement)"
+            hex_color = default_hex
+            
+            if informal == 'yes':
+                is_unsanc = True
+                status_note = "Unsanctioned (Community Built)"
+                hex_color = "#ea580c"
+            elif abandoned:
+                is_unsanc = True
+                status_note = "Unsanctioned (Abandoned / Decommissioned)"
+                hex_color = "#475569"
+            elif access in ['private', 'no']:
+                is_unsanc = True
+                status_note = f"Unsanctioned (Access: {access})"
+                hex_color = "#ea580c"
+                
         feature = {
             'type': 'Feature',
             'id': wid,
@@ -238,7 +267,7 @@ def main():
         else:
             sanctioned.append(feature)
             
-    print(f"Galbraith parsed dynamically: {len(sanctioned)} sanctioned, {len(unsanctioned)} unsanctioned.")
+    print(f"Galbraith processed: {len(sanctioned)} sanctioned, {len(unsanctioned)} unsanctioned, {excluded_count} unverified spurs excluded.")
     
     export_layer(sanctioned, target_dir, "galbraith_sanctioned", "Galbraith Mountain - Sanctioned")
     export_layer(unsanctioned, target_dir, "galbraith_unsanctioned", "Galbraith Mountain - Unsanctioned")
@@ -248,7 +277,7 @@ def export_layer(features, out_dir, prefix, label):
     with open(os.path.join(out_dir, f"{prefix}.geojson"), "w", encoding="utf-8") as f:
         json.dump({'type': 'FeatureCollection', 'features': features}, f, indent=2)
         
-    lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<kml xmlns="http://www.opengis.net/kml/2.2">', '  <Document>', f'    <name>{label}</name>']
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<kml xmlns="http://www.opengis.net/kml/2.2">', '  <Document>', f'    <name><![CDATA[{label}]]></name>']
     colors = set(f['properties']['stroke'] for f in features)
     for c in colors:
         clean = c.replace('#', '')
@@ -268,7 +297,7 @@ def export_layer(features, out_dir, prefix, label):
     with open(os.path.join(out_dir, f"{prefix}.kml"), "w", encoding="utf-8") as f:
         f.write('\n'.join(lines))
         
-    glines = ['<?xml version="1.0" encoding="UTF-8"?>', '<gpx version="1.1" creator="GalbraithDynamicBuilder" xmlns="http://www.topografix.com/GPX/1/1" xmlns:tf="http://www.trailforks.com" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">', f'  <metadata><name>{label}</name></metadata>']
+    glines = ['<?xml version="1.0" encoding="UTF-8"?>', '<gpx version="1.1" creator="GalbraithDynamicBuilder" xmlns="http://www.topografix.com/GPX/1/1" xmlns:tf="http://www.trailforks.com" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">', f'  <metadata><name><![CDATA[{label}]]></name></metadata>']
     for f in features:
         props = f['properties']
         glines.append('  <trk>')
