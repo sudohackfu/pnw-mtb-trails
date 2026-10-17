@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="BellinghamMTBBuilder" xmlns="http://www.topografix.com/GPX/1/1" xmlns:tf="http://www.trailforks.com" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <metadata><name>Galbraith Mountain - Unsanctioned</name></metadata>
+  <trk>
+    <name><![CDATA[Old Keystone]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Abandoned / Decommissioned)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#475569</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#475569</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7195475" lon="-122.3983608"/>
+      <trkpt lat="48.7189983" lon="-122.3981964"/>
+      <trkpt lat="48.7185862" lon="-122.3973022"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (283336485)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7100238" lon="-122.3810866"/>
+      <trkpt lat="48.71014" lon="-122.380886"/>
+      <trkpt lat="48.710262" lon="-122.38077"/>
+      <trkpt lat="48.710515" lon="-122.380559"/>
+      <trkpt lat="48.710952" lon="-122.380326"/>
+      <trkpt lat="48.711168" lon="-122.380131"/>
+      <trkpt lat="48.711594" lon="-122.379939"/>
+      <trkpt lat="48.711666" lon="-122.379941"/>
+      <trkpt lat="48.711771" lon="-122.379978"/>
+      <trkpt lat="48.711987" lon="-122.379962"/>
+      <trkpt lat="48.71216" lon="-122.380024"/>
+      <trkpt lat="48.712268" lon="-122.380007"/>
+      <trkpt lat="48.712402" lon="-122.379941"/>
+      <trkpt lat="48.7124572" lon="-122.379825"/>
+      <trkpt lat="48.7125057" lon="-122.3796662"/>
+      <trkpt lat="48.7125269" lon="-122.379484"/>
+      <trkpt lat="48.7125943" lon="-122.3793906"/>
+      <trkpt lat="48.712726" lon="-122.3794031"/>
+      <trkpt lat="48.7128008" lon="-122.3794987"/>
+      <trkpt lat="48.7129382" lon="-122.3796802"/>
+      <trkpt lat="48.7131296" lon="-122.3797505"/>
+      <trkpt lat="48.713205" lon="-122.379597"/>
+      <trkpt lat="48.713275" lon="-122.379613"/>
+      <trkpt lat="48.713346" lon="-122.379595"/>
+      <trkpt lat="48.713471" lon="-122.37949"/>
+      <trkpt lat="48.713579" lon="-122.379508"/>
+      <trkpt lat="48.713776" lon="-122.379376"/>
+      <trkpt lat="48.713991" lon="-122.379342"/>
+      <trkpt lat="48.714132" lon="-122.379343"/>
+      <trkpt lat="48.714197" lon="-122.379296"/>
+      <trkpt lat="48.71425" lon="-122.379227"/>
+      <trkpt lat="48.714249" lon="-122.379172"/>
+      <trkpt lat="48.714214" lon="-122.37908"/>
+      <trkpt lat="48.7142888" lon="-122.3788075"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Private Trail]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Access: private)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7272717" lon="-122.388625"/>
+      <trkpt lat="48.7272806" lon="-122.3882949"/>
+      <trkpt lat="48.7273016" lon="-122.3881427"/>
+      <trkpt lat="48.7273576" lon="-122.3879976"/>
+      <trkpt lat="48.7274183" lon="-122.3878879"/>
+      <trkpt lat="48.7274767" lon="-122.3877322"/>
+      <trkpt lat="48.7275234" lon="-122.3875092"/>
+      <trkpt lat="48.7275677" lon="-122.3872367"/>
+      <trkpt lat="48.7275887" lon="-122.3869925"/>
+      <trkpt lat="48.7276121" lon="-122.3867376"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Scorpion (old)]]></name>
+    <desc><![CDATA[Difficulty: Double Black Diamond | Status: Unsanctioned (Abandoned / Decommissioned)]]></desc>
+    <extensions>
+      <tf:difficulty>4</tf:difficulty>
+      <tf:color>#475569</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#475569</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7088763" lon="-122.3935013"/>
+      <trkpt lat="48.7088959" lon="-122.3936103"/>
+      <trkpt lat="48.7089635" lon="-122.3936569"/>
+      <trkpt lat="48.7089266" lon="-122.3938898"/>
+      <trkpt lat="48.7088006" lon="-122.3941273"/>
+      <trkpt lat="48.7086839" lon="-122.3941692"/>
+      <trkpt lat="48.7084196" lon="-122.3944672"/>
+      <trkpt lat="48.7083366" lon="-122.3944626"/>
+      <trkpt lat="48.7082229" lon="-122.3946023"/>
+      <trkpt lat="48.7081491" lon="-122.3945976"/>
+      <trkpt lat="48.7081276" lon="-122.3946442"/>
+      <trkpt lat="48.7082045" lon="-122.3948631"/>
+      <trkpt lat="48.7080016" lon="-122.3948119"/>
+      <trkpt lat="48.7079423" lon="-122.3950385"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Private Trail]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Access: private)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7276121" lon="-122.3867376"/>
+      <trkpt lat="48.7276121" lon="-122.3865571"/>
+      <trkpt lat="48.7275864" lon="-122.3863306"/>
+      <trkpt lat="48.7275397" lon="-122.3861006"/>
+      <trkpt lat="48.7274837" lon="-122.3858175"/>
+      <trkpt lat="48.727437" lon="-122.3854954"/>
+      <trkpt lat="48.7274136" lon="-122.3853821"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Coyote Ripp]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Abandoned / Decommissioned)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#475569</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#475569</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7313173" lon="-122.4143539"/>
+      <trkpt lat="48.7313696" lon="-122.414369"/>
+      <trkpt lat="48.7314248" lon="-122.414386"/>
+      <trkpt lat="48.7314934" lon="-122.4144209"/>
+      <trkpt lat="48.7315123" lon="-122.4144115"/>
+      <trkpt lat="48.731553" lon="-122.414335"/>
+      <trkpt lat="48.731555" lon="-122.4143236"/>
+      <trkpt lat="48.7315663" lon="-122.414258"/>
+      <trkpt lat="48.731558" lon="-122.4142199"/>
+      <trkpt lat="48.7315631" lon="-122.4141751"/>
+      <trkpt lat="48.7315733" lon="-122.4141352"/>
+      <trkpt lat="48.7315892" lon="-122.4141118"/>
+      <trkpt lat="48.731619" lon="-122.414114"/>
+      <trkpt lat="48.731797" lon="-122.414094"/>
+      <trkpt lat="48.731972" lon="-122.41416"/>
+      <trkpt lat="48.732079" lon="-122.414304"/>
+      <trkpt lat="48.732122" lon="-122.414454"/>
+      <trkpt lat="48.732149" lon="-122.415055"/>
+      <trkpt lat="48.732206" lon="-122.415425"/>
+      <trkpt lat="48.732276" lon="-122.415678"/>
+      <trkpt lat="48.732458" lon="-122.416086"/>
+      <trkpt lat="48.732573" lon="-122.416426"/>
+      <trkpt lat="48.732681" lon="-122.416833"/>
+      <trkpt lat="48.732768" lon="-122.4170507"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (321756754)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7551376" lon="-122.4383777"/>
+      <trkpt lat="48.755161" lon="-122.4382621"/>
+      <trkpt lat="48.7551738" lon="-122.4381396"/>
+      <trkpt lat="48.7551789" lon="-122.4380652"/>
+      <trkpt lat="48.7551205" lon="-122.438057"/>
+      <trkpt lat="48.7550832" lon="-122.438059"/>
+      <trkpt lat="48.7550591" lon="-122.4380967"/>
+      <trkpt lat="48.7550342" lon="-122.4382128"/>
+      <trkpt lat="48.7550127" lon="-122.4382631"/>
+      <trkpt lat="48.7549751" lon="-122.4382957"/>
+      <trkpt lat="48.7548841" lon="-122.4383226"/>
+      <trkpt lat="48.7548007" lon="-122.4383183"/>
+      <trkpt lat="48.7547164" lon="-122.4382929"/>
+      <trkpt lat="48.7546263" lon="-122.4382527"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (534628746)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7533319" lon="-122.4438414"/>
+      <trkpt lat="48.7533472" lon="-122.444407"/>
+      <trkpt lat="48.7533631" lon="-122.4447168"/>
+      <trkpt lat="48.7533825" lon="-122.4448911"/>
+      <trkpt lat="48.7533893" lon="-122.444913"/>
+      <trkpt lat="48.7534088" lon="-122.4449579"/>
+      <trkpt lat="48.7534155" lon="-122.4449968"/>
+      <trkpt lat="48.7534149" lon="-122.4450259"/>
+      <trkpt lat="48.7534055" lon="-122.4450734"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1193444620)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7505909" lon="-122.4373204"/>
+      <trkpt lat="48.75047" lon="-122.4373032"/>
+      <trkpt lat="48.7498756" lon="-122.4372801"/>
+      <trkpt lat="48.7494671" lon="-122.4373313"/>
+      <trkpt lat="48.7494303" lon="-122.4373558"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1193465528)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.75162" lon="-122.4335259"/>
+      <trkpt lat="48.751628" lon="-122.4334083"/>
+      <trkpt lat="48.7516496" lon="-122.4332439"/>
+      <trkpt lat="48.7516764" lon="-122.4330762"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1193488868)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7514438" lon="-122.4273669"/>
+      <trkpt lat="48.7515341" lon="-122.4273117"/>
+      <trkpt lat="48.7516548" lon="-122.4272831"/>
+      <trkpt lat="48.7518013" lon="-122.4271868"/>
+      <trkpt lat="48.7519662" lon="-122.4270269"/>
+      <trkpt lat="48.7521151" lon="-122.4268813"/>
+      <trkpt lat="48.7522167" lon="-122.4268191"/>
+      <trkpt lat="48.7523022" lon="-122.4268018"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1300626401)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7551789" lon="-122.4380652"/>
+      <trkpt lat="48.7551782" lon="-122.4379814"/>
+      <trkpt lat="48.7551523" lon="-122.4377896"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1310983569)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7546367" lon="-122.438126"/>
+      <trkpt lat="48.7547455" lon="-122.4380754"/>
+      <trkpt lat="48.7548511" lon="-122.4379912"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1310988772)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7498552" lon="-122.4298232"/>
+      <trkpt lat="48.7498289" lon="-122.4296106"/>
+      <trkpt lat="48.749791" lon="-122.4293753"/>
+      <trkpt lat="48.749764" lon="-122.4292139"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1309122610)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7486333" lon="-122.4072922"/>
+      <trkpt lat="48.7487406" lon="-122.4073762"/>
+      <trkpt lat="48.74896" lon="-122.4074332"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1309122611)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7489672" lon="-122.4080827"/>
+      <trkpt lat="48.7490734" lon="-122.4079768"/>
+      <trkpt lat="48.7491353" lon="-122.4080268"/>
+      <trkpt lat="48.7493002" lon="-122.407908"/>
+      <trkpt lat="48.7493703" lon="-122.4079393"/>
+      <trkpt lat="48.7494198" lon="-122.4078455"/>
+      <trkpt lat="48.7495311" lon="-122.4077955"/>
+      <trkpt lat="48.7495475" lon="-122.4078681"/>
+      <trkpt lat="48.7495163" lon="-122.4080043"/>
+      <trkpt lat="48.7495475" lon="-122.4080072"/>
+      <trkpt lat="48.7495905" lon="-122.4080753"/>
+      <trkpt lat="48.7496451" lon="-122.408096"/>
+      <trkpt lat="48.7498149" lon="-122.4079303"/>
+      <trkpt lat="48.7499027" lon="-122.4078622"/>
+      <trkpt lat="48.7499846" lon="-122.4078296"/>
+      <trkpt lat="48.7500705" lon="-122.4078267"/>
+      <trkpt lat="48.750092" lon="-122.4078977"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1309122612)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7489796" lon="-122.4096971"/>
+      <trkpt lat="48.7490421" lon="-122.4096941"/>
+      <trkpt lat="48.7491124" lon="-122.4096379"/>
+      <trkpt lat="48.7492197" lon="-122.409629"/>
+      <trkpt lat="48.7492997" lon="-122.4096852"/>
+      <trkpt lat="48.7494441" lon="-122.4096468"/>
+      <trkpt lat="48.749491" lon="-122.4096823"/>
+      <trkpt lat="48.7496197" lon="-122.4096172"/>
+      <trkpt lat="48.7496822" lon="-122.4095491"/>
+      <trkpt lat="48.7497466" lon="-122.4094455"/>
+      <trkpt lat="48.7497446" lon="-122.409194"/>
+      <trkpt lat="48.7498598" lon="-122.4090637"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1309122613)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7497466" lon="-122.4094455"/>
+      <trkpt lat="48.7498246" lon="-122.4094248"/>
+      <trkpt lat="48.7498676" lon="-122.4093331"/>
+      <trkpt lat="48.7499007" lon="-122.4093301"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1309122614)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7498246" lon="-122.4094248"/>
+      <trkpt lat="48.7498754" lon="-122.4094603"/>
+      <trkpt lat="48.74993" lon="-122.4094485"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1309122615)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7489796" lon="-122.4095437"/>
+      <trkpt lat="48.7488081" lon="-122.4094837"/>
+      <trkpt lat="48.7487562" lon="-122.4094613"/>
+      <trkpt lat="48.7486969" lon="-122.4094613"/>
+      <trkpt lat="48.7486499" lon="-122.4094275"/>
+      <trkpt lat="48.7485782" lon="-122.4094388"/>
+      <trkpt lat="48.7485041" lon="-122.4093825"/>
+      <trkpt lat="48.7484645" lon="-122.4093975"/>
+      <trkpt lat="48.7483409" lon="-122.4093301"/>
+      <trkpt lat="48.7482445" lon="-122.4092663"/>
+      <trkpt lat="48.7481136" lon="-122.4092588"/>
+      <trkpt lat="48.7480542" lon="-122.4092776"/>
+      <trkpt lat="48.7479628" lon="-122.4092588"/>
+      <trkpt lat="48.7478367" lon="-122.4092588"/>
+      <trkpt lat="48.7476983" lon="-122.4093113"/>
+      <trkpt lat="48.7476316" lon="-122.4092064"/>
+      <trkpt lat="48.7475451" lon="-122.4092926"/>
+      <trkpt lat="48.7473869" lon="-122.4093188"/>
+      <trkpt lat="48.7473249" lon="-122.4092913"/>
+      <trkpt lat="48.7471422" lon="-122.4092101"/>
+      <trkpt lat="48.7470334" lon="-122.4090602"/>
+      <trkpt lat="48.7467986" lon="-122.4091876"/>
+      <trkpt lat="48.7466355" lon="-122.4092101"/>
+      <trkpt lat="48.7465613" lon="-122.4091839"/>
+      <trkpt lat="48.7464896" lon="-122.4090189"/>
+      <trkpt lat="48.7465341" lon="-122.4089964"/>
+      <trkpt lat="48.7465193" lon="-122.4088765"/>
+      <trkpt lat="48.7465481" lon="-122.4088477"/>
+      <trkpt lat="48.7466206" lon="-122.4087753"/>
+      <trkpt lat="48.7468011" lon="-122.4087565"/>
+      <trkpt lat="48.7468802" lon="-122.408794"/>
+      <trkpt lat="48.7470507" lon="-122.4086291"/>
+      <trkpt lat="48.7471249" lon="-122.4086253"/>
+      <trkpt lat="48.747204" lon="-122.4084829"/>
+      <trkpt lat="48.7473275" lon="-122.4083292"/>
+      <trkpt lat="48.7474017" lon="-122.4083442"/>
+      <trkpt lat="48.7475599" lon="-122.4082205"/>
+      <trkpt lat="48.7475777" lon="-122.4082376"/>
+      <trkpt lat="48.747634" lon="-122.4082917"/>
+      <trkpt lat="48.7479133" lon="-122.4081418"/>
+      <trkpt lat="48.7479751" lon="-122.4080293"/>
+      <trkpt lat="48.748032" lon="-122.4080256"/>
+      <trkpt lat="48.7480468" lon="-122.4080968"/>
+      <trkpt lat="48.7482347" lon="-122.4081605"/>
+      <trkpt lat="48.7482915" lon="-122.4080031"/>
+      <trkpt lat="48.7483805" lon="-122.4079468"/>
+      <trkpt lat="48.7484967" lon="-122.4079993"/>
+      <trkpt lat="48.7486623" lon="-122.4079618"/>
+      <trkpt lat="48.7488427" lon="-122.4080181"/>
+      <trkpt lat="48.7489663" lon="-122.4079991"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1309122616)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.747572" lon="-122.4077133"/>
+      <trkpt lat="48.7476059" lon="-122.4079052"/>
+      <trkpt lat="48.7475428" lon="-122.4079128"/>
+      <trkpt lat="48.7476199" lon="-122.4080525"/>
+      <trkpt lat="48.7475799" lon="-122.4080707"/>
+      <trkpt lat="48.7475709" lon="-122.4081193"/>
+      <trkpt lat="48.7475777" lon="-122.4082376"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1309122617)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7473249" lon="-122.4092913"/>
+      <trkpt lat="48.7472568" lon="-122.4094618"/>
+      <trkpt lat="48.7472319" lon="-122.4094996"/>
+      <trkpt lat="48.7472219" lon="-122.4096055"/>
+      <trkpt lat="48.7472419" lon="-122.4096849"/>
+      <trkpt lat="48.7473266" lon="-122.4097687"/>
+      <trkpt lat="48.7473266" lon="-122.4098445"/>
+    </trkseg>
+  </trk>
+  <trk>
+    <name><![CDATA[Unnamed Trail (1309122618)]]></name>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions>
+      <tf:difficulty>3</tf:difficulty>
+      <tf:color>#ea580c</tf:color>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>#ea580c</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="48.7459729" lon="-122.4098437"/>
+      <trkpt lat="48.7459181" lon="-122.4097265"/>
+      <trkpt lat="48.7458184" lon="-122.4096319"/>
+      <trkpt lat="48.7457735" lon="-122.4095374"/>
+      <trkpt lat="48.7457959" lon="-122.4093975"/>
+      <trkpt lat="48.7458333" lon="-122.4092047"/>
+      <trkpt lat="48.7458433" lon="-122.4091102"/>
+      <trkpt lat="48.7459605" lon="-122.4089174"/>
+      <trkpt lat="48.7459605" lon="-122.4087926"/>
+      <trkpt lat="48.7461599" lon="-122.4087321"/>
+      <trkpt lat="48.7462397" lon="-122.408683"/>
+      <trkpt lat="48.7463319" lon="-122.4087246"/>
+      <trkpt lat="48.7463643" lon="-122.4087624"/>
+      <trkpt lat="48.7464641" lon="-122.4087284"/>
+      <trkpt lat="48.746479" lon="-122.4087964"/>
+      <trkpt lat="48.7465481" lon="-122.4088477"/>
+    </trkseg>
+  </trk>
+</gpx>

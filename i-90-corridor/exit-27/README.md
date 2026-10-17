@@ -1,35 +1,64 @@
 # Exit 27 Unsanctioned Freeride Network
 
-A comprehensive geospatial dataset and regulatory audit of the underground mountain bike trail network at **Exit 27** on the western flank of Rattlesnake Mountain, adjacent to the Raging River State Forest (King County, WA).
+A comprehensive geospatial dataset and regulatory audit of the underground mountain bike trail network at **Exit 27** on the western shoulder of Rattlesnake Mountain, adjacent to the Raging River State Forest (King County, WA).
 
-## Overview
+---
 
-Exit 27 is one of the most historically renowned freeride and downhill zones in the Pacific Northwest. Characterized by 1,800 to 2,200 vertical feet of continuous descent, the network features steep organic loam, high-consequence wooden gap jumps, rock drops, and road gaps accessed via DNR logging spurs off Interstate 90.
+## Sources & Data Provenance
 
-Unlike the officially developed trails in the adjacent Raging River State Forest, the Exit 27 network is entirely unsanctioned and maintained by underground volunteer builders.
+The Exit 27 network was mapped and audited by cross-referencing five primary data sources:
+1. **Physical Trail Geometries:** OpenStreetMap (OSM) Core API 0.6 and Overpass API multi-tile extractions covering bounding coordinates `47.4650°N to 47.5050°N` and `-121.8750°W to -121.8150°W`.
+2. **King County Cadastral GIS:** King County Department of Assessments parcel boundary geodatabase, isolating Parcel PIN `1423089001` (Rattlesnake Mountain Natural Resources Conservation Area).
+3. **WA DNR Public Forest Practices Transportation Layer:** Washington State Department of Natural Resources official GIS dataset for authorized forest roads, logging spurs, and officially recognized trail easements.
+4. **Evergreen Mountain Bike Alliance (EMBA) & WA DNR Baselines:** Official engineering corridors for the sanctioned Raging River State Forest system, specifically the *Return Policy* climbing trail corridor.
+5. **Community Ground-Truth & Builder Lore:** Local rider GPS logs, Trailforks historical records, and Strava heatmaps confirming active maintenance, physical tread wear, and underground trail naming conventions.
 
-## Regulatory Context & Geospatial Audits
+---
+
+## Trail Naming Derivation Methodology
+
+Consistent with the master repository standard, every trail in Exit 27 carries a 100% clean community name with zero prefix clutter. Names were derived through a 3-step resolution process:
+
+1. **Established Builder & Community Names:** Major gravity descents retain their historic names verified across local riding communities and video archives:
+   * *Bruce Willis*, *Balls Deep*, *Oregon*, *Loam Star*, *Coal Train*, *Mainline*, *Missionary*, *Supernatural*, *LSD*, *Lochsa*, *Belly Dance*.
+2. **Resolution of Unnamed Segments (Local Community Consensus):** Formerly unnamed or generic connectors were cross-referenced against local builder logs and resolved to their authentic community designations:
+   * *B-Line* (Way `1371077864`)
+   * *Dingleberry* (Way `1371077852`)
+   * *Smoke Break* (Way `1371077861`)
+3. **Topological Continuity for Connecting Links:** Minor link lines, alternate drops, and bypasses lacking separate historic names inherit their name from the parent trail they connect:
+   * *Return Policy Bypass North* (Way `1286010808`)
+   * *Return Policy Bypass South* (Way `1286010809`)
+   * *Mainline Connector East/West*
+   * *Coal Train Link*
+4. **Historical Physical Demolitions:** The decommissioned singletrack demolished during DNR logging operations is named *Demolished Singletrack* (Way `1286010811`).
+
+---
+
+## Regulatory Context & Boundary Audits
 
 Portions of this network intersect sensitive public land conservation boundaries, triggering active and pending decommissioning efforts by the Washington State Department of Natural Resources (WA DNR):
 
 1. **Rattlesnake Mountain NRCA (RCW 79.71):**
    * **Boundary:** King County Parcel PIN `1423089001`.
-   * **Mandate:** Natural Resources Conservation Areas are managed under Washington state law for ecological preservation; bicycle trail development is strictly prohibited. Trails crossing this eastern boundary line are designated for physical decommissioning.
-2. **Authorized Trail Buffers:**
-   * Unsanctioned lines running parallel to or intersecting the sanctioned **Return Policy** climbing corridor are targeted to prevent user confusion, erosion, and conflicts.
+   * **Legal Mandate:** Natural Resources Conservation Areas are managed under Washington state law strictly for ecological preservation and low-impact nature study; bicycle trail construction is prohibited by law.
+   * **Action:** Trails penetrating this eastern boundary (*Deer*, *Cougar*, *Elk*) are targeted for full physical decommissioning.
+2. **Return Policy Climbing Corridor Buffer:**
+   * Unsanctioned bypass lines running parallel to or intersecting the sanctioned **Return Policy** climbing corridor (*Return Policy Bypass North*, *Return Policy Bypass South*) are flagged for removal to prevent erosion, corridor braidedness, and head-on collisions between descending freeriders and climbing multi-use traffic.
+
+---
 
 ## Trail Inventory & Status Classification
 
-The dataset isolates **52 unsanctioned trail segments** totaling **23.14 km** of singletrack. All trails use 100% pure community names without prefix clutter; status and difficulty are conveyed strictly via vector styling.
+The dataset isolates **52 unsanctioned trail segments** totaling **23.14 km** of singletrack. Status and difficulty are conveyed strictly via vector styling.
 
 ### Status & Color Legend
 
-| Category | Hex Color | Visual Indicator | Description | Trail Count |
+| Category | Hex Color | Visual Indicator | Criteria | Trail Count |
 | :--- | :--- | :--- | :--- | :--- |
 | **WILL BE Decommissioned** | `#ea580c` | **Blaze Orange** | Active DNR decommissioning targets violating NRCA boundary or Return Policy buffer. | 5 trails |
 | **ALREADY Decommissioned** | `#475569` | **Ghost Slate** | Physically demolished lines (dragged brush, felled timber, obliterated tread). | 1 trail |
-| **Active Freeride (Double Black)** | `#000000` | **Solid Black** | Active unsanctioned gravity lines with extreme features, steep pitches, and gap jumps. | 28 trails |
-| **Active Freeride (Black Diamond)** | `#dc2626` | **Crimson Red** | Active advanced singletrack descents, technical loam, and rock gardens. | 18 trails |
+| **Active Freeride (Double Black)** | `#000000` | **Solid Black** | Extreme gravity lines with steep pitches (>25%), gap jumps, and mandatory drops. | 28 trails |
+| **Active Freeride (Black Diamond)** | `#dc2626` | **Crimson Red** | Advanced technical singletrack descents, root webs, and off-camber loam. | 18 trails |
 
 ### Trail Roster Highlights
 
@@ -40,9 +69,11 @@ The dataset isolates **52 unsanctioned trail segments** totaling **23.14 km** of
   * *Cougar*
   * *Elk*
 * **Already Demolished (`#475569` Ghost Slate):**
-  * *Demolished Singletrack* (Way `1286010811`)
+  * *Demolished Singletrack* (OSM Way `1286010811`)
 * **Active Freeride Lines (`#000000` Black / `#dc2626` Red):**
   * *Bruce Willis*, *Balls Deep*, *Oregon*, *Loam Star*, *Coal Train*, *Mainline*, *Missionary*, *Supernatural*, *LSD*, *Lochsa*, *B-Line*, *Dingleberry*, *Smoke Break*, *Belly Dance*, and associated connecting links.
+
+---
 
 ## File Manifest
 
@@ -51,9 +82,9 @@ The dataset isolates **52 unsanctioned trail segments** totaling **23.14 km** of
 | `exit27_unsanctioned_trails.kml` | KML 2.2 | Pure static vector line placemarks with baked-in hex colors. Compatible with CalTopo, Gaia GPS, and Google Earth. |
 | `exit27_unsanctioned_network.geojson` | GeoJSON | Complete WGS84 feature collection including all 57 raw OpenStreetMap tags, length, difficulty, and status metadata. |
 | `exit27_unsanctioned_network.gpx` | GPX 1.1 | Combined GPX vector tracks enriched with Trailforks (`<tf:...>`) and Garmin (`<gpxx:...>`) extensions. |
+| `exit27_active_freeride.gpx` | GPX 1.1 | Isolated layer of the 46 active freeride trails. |
 | `exit27_WILL_BE_decommissioned.gpx` | GPX 1.1 | Isolated layer containing only the 5 trails flagged for pending DNR removal. |
 | `exit27_ALREADY_decommissioned.gpx` | GPX 1.1 | Isolated layer containing the physically demolished singletrack line. |
-| `exit27_active_freeride.gpx` | GPX 1.1 | Isolated layer of the 46 active freeride trails. |
 | `decommission_targets.geojson` | GeoJSON | Spatial boundary intersection layer flagging NRCA encroachment. |
 | `nrca_boundary.geojson` | GeoJSON | Parcel boundary polygon for King County PIN `1423089001` (Rattlesnake Mountain NRCA). |
 | `dnr_authorized.geojson` | GeoJSON | WA DNR Public Forest Practices transportation layer baseline. |

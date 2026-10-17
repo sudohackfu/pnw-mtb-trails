@@ -1,0 +1,1681 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "187061156",
+      "properties": {
+        "name": "Old Keystone",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Abandoned / Decommissioned)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#475569",
+        "stroke-width": 3.5,
+        "length_m": 142.27,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "187061156",
+        "tags": {
+          "abandoned": "yes",
+          "bicycle": "yes",
+          "foot": "yes",
+          "highway": "path",
+          "motor_vehicle": "no",
+          "name": "Old Keystone"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3983608,
+            48.7195475
+          ],
+          [
+            -122.3981964,
+            48.7189983
+          ],
+          [
+            -122.3973022,
+            48.7185862
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "283336485",
+      "properties": {
+        "name": "Unnamed Trail (283336485)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 573.74,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "283336485",
+        "tags": {
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3810866,
+            48.7100238
+          ],
+          [
+            -122.380886,
+            48.71014
+          ],
+          [
+            -122.38077,
+            48.710262
+          ],
+          [
+            -122.380559,
+            48.710515
+          ],
+          [
+            -122.380326,
+            48.710952
+          ],
+          [
+            -122.380131,
+            48.711168
+          ],
+          [
+            -122.379939,
+            48.711594
+          ],
+          [
+            -122.379941,
+            48.711666
+          ],
+          [
+            -122.379978,
+            48.711771
+          ],
+          [
+            -122.379962,
+            48.711987
+          ],
+          [
+            -122.380024,
+            48.71216
+          ],
+          [
+            -122.380007,
+            48.712268
+          ],
+          [
+            -122.379941,
+            48.712402
+          ],
+          [
+            -122.379825,
+            48.7124572
+          ],
+          [
+            -122.3796662,
+            48.7125057
+          ],
+          [
+            -122.379484,
+            48.7125269
+          ],
+          [
+            -122.3793906,
+            48.7125943
+          ],
+          [
+            -122.3794031,
+            48.712726
+          ],
+          [
+            -122.3794987,
+            48.7128008
+          ],
+          [
+            -122.3796802,
+            48.7129382
+          ],
+          [
+            -122.3797505,
+            48.7131296
+          ],
+          [
+            -122.379597,
+            48.713205
+          ],
+          [
+            -122.379613,
+            48.713275
+          ],
+          [
+            -122.379595,
+            48.713346
+          ],
+          [
+            -122.37949,
+            48.713471
+          ],
+          [
+            -122.379508,
+            48.713579
+          ],
+          [
+            -122.379376,
+            48.713776
+          ],
+          [
+            -122.379342,
+            48.713991
+          ],
+          [
+            -122.379343,
+            48.714132
+          ],
+          [
+            -122.379296,
+            48.714197
+          ],
+          [
+            -122.379227,
+            48.71425
+          ],
+          [
+            -122.379172,
+            48.714249
+          ],
+          [
+            -122.37908,
+            48.714214
+          ],
+          [
+            -122.3788075,
+            48.7142888
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "944102476",
+      "properties": {
+        "name": "Private Trail",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Access: private)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 146.3,
+        "oneway": "no",
+        "surface": "dirt",
+        "osm_id": "944102476",
+        "tags": {
+          "access": "private",
+          "foot": "private",
+          "highway": "path",
+          "name": "Private Trail",
+          "surface": "dirt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.388625,
+            48.7272717
+          ],
+          [
+            -122.3882949,
+            48.7272806
+          ],
+          [
+            -122.3881427,
+            48.7273016
+          ],
+          [
+            -122.3879976,
+            48.7273576
+          ],
+          [
+            -122.3878879,
+            48.7274183
+          ],
+          [
+            -122.3877322,
+            48.7274767
+          ],
+          [
+            -122.3875092,
+            48.7275234
+          ],
+          [
+            -122.3872367,
+            48.7275677
+          ],
+          [
+            -122.3869925,
+            48.7275887
+          ],
+          [
+            -122.3867376,
+            48.7276121
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1095733689",
+      "properties": {
+        "name": "Scorpion (old)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Abandoned / Decommissioned)",
+        "difficulty": "Double Black Diamond",
+        "imba_scale": 4,
+        "stroke": "#475569",
+        "stroke-width": 3.5,
+        "length_m": 203.3,
+        "oneway": "yes",
+        "surface": "",
+        "osm_id": "1095733689",
+        "tags": {
+          "abandoned": "yes",
+          "foot": "no",
+          "highway": "path",
+          "horse": "no",
+          "name": "Scorpion (old)",
+          "oneway": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3935013,
+            48.7088763
+          ],
+          [
+            -122.3936103,
+            48.7088959
+          ],
+          [
+            -122.3936569,
+            48.7089635
+          ],
+          [
+            -122.3938898,
+            48.7089266
+          ],
+          [
+            -122.3941273,
+            48.7088006
+          ],
+          [
+            -122.3941692,
+            48.7086839
+          ],
+          [
+            -122.3944672,
+            48.7084196
+          ],
+          [
+            -122.3944626,
+            48.7083366
+          ],
+          [
+            -122.3946023,
+            48.7082229
+          ],
+          [
+            -122.3945976,
+            48.7081491
+          ],
+          [
+            -122.3946442,
+            48.7081276
+          ],
+          [
+            -122.3948631,
+            48.7082045
+          ],
+          [
+            -122.3948119,
+            48.7080016
+          ],
+          [
+            -122.3950385,
+            48.7079423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1194861931",
+      "properties": {
+        "name": "Private Trail",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Access: private)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 102.32,
+        "oneway": "no",
+        "surface": "dirt",
+        "osm_id": "1194861931",
+        "tags": {
+          "access": "private",
+          "foot": "private",
+          "highway": "path",
+          "name": "Private Trail",
+          "surface": "dirt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.3867376,
+            48.7276121
+          ],
+          [
+            -122.3865571,
+            48.7276121
+          ],
+          [
+            -122.3863306,
+            48.7275864
+          ],
+          [
+            -122.3861006,
+            48.7275397
+          ],
+          [
+            -122.3858175,
+            48.7274837
+          ],
+          [
+            -122.3854954,
+            48.727437
+          ],
+          [
+            -122.3853821,
+            48.7274136
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "284459861",
+      "properties": {
+        "name": "Coyote Ripp",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Abandoned / Decommissioned)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#475569",
+        "stroke-width": 3.5,
+        "length_m": 325.65,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "284459861",
+        "tags": {
+          "abandoned": "yes",
+          "bicycle": "yes",
+          "highway": "path",
+          "name": "Coyote Ripp"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4143539,
+            48.7313173
+          ],
+          [
+            -122.414369,
+            48.7313696
+          ],
+          [
+            -122.414386,
+            48.7314248
+          ],
+          [
+            -122.4144209,
+            48.7314934
+          ],
+          [
+            -122.4144115,
+            48.7315123
+          ],
+          [
+            -122.414335,
+            48.731553
+          ],
+          [
+            -122.4143236,
+            48.731555
+          ],
+          [
+            -122.414258,
+            48.7315663
+          ],
+          [
+            -122.4142199,
+            48.731558
+          ],
+          [
+            -122.4141751,
+            48.7315631
+          ],
+          [
+            -122.4141352,
+            48.7315733
+          ],
+          [
+            -122.4141118,
+            48.7315892
+          ],
+          [
+            -122.414114,
+            48.731619
+          ],
+          [
+            -122.414094,
+            48.731797
+          ],
+          [
+            -122.41416,
+            48.731972
+          ],
+          [
+            -122.414304,
+            48.732079
+          ],
+          [
+            -122.414454,
+            48.732122
+          ],
+          [
+            -122.415055,
+            48.732149
+          ],
+          [
+            -122.415425,
+            48.732206
+          ],
+          [
+            -122.415678,
+            48.732276
+          ],
+          [
+            -122.416086,
+            48.732458
+          ],
+          [
+            -122.416426,
+            48.732573
+          ],
+          [
+            -122.416833,
+            48.732681
+          ],
+          [
+            -122.4170507,
+            48.732768
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "321756754",
+      "properties": {
+        "name": "Unnamed Trail (321756754)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 95.71,
+        "oneway": "no",
+        "surface": "dirt",
+        "osm_id": "321756754",
+        "tags": {
+          "highway": "path",
+          "informal": "yes",
+          "lit": "no",
+          "surface": "dirt",
+          "width": "0.5"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4383777,
+            48.7551376
+          ],
+          [
+            -122.4382621,
+            48.755161
+          ],
+          [
+            -122.4381396,
+            48.7551738
+          ],
+          [
+            -122.4380652,
+            48.7551789
+          ],
+          [
+            -122.438057,
+            48.7551205
+          ],
+          [
+            -122.438059,
+            48.7550832
+          ],
+          [
+            -122.4380967,
+            48.7550591
+          ],
+          [
+            -122.4382128,
+            48.7550342
+          ],
+          [
+            -122.4382631,
+            48.7550127
+          ],
+          [
+            -122.4382957,
+            48.7549751
+          ],
+          [
+            -122.4383226,
+            48.7548841
+          ],
+          [
+            -122.4383183,
+            48.7548007
+          ],
+          [
+            -122.4382929,
+            48.7547164
+          ],
+          [
+            -122.4382527,
+            48.7546263
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "534628746",
+      "properties": {
+        "name": "Unnamed Trail (534628746)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 91.67,
+        "oneway": "no",
+        "surface": "gravel",
+        "osm_id": "534628746",
+        "tags": {
+          "highway": "path",
+          "incline": "down",
+          "informal": "yes",
+          "lit": "no",
+          "surface": "gravel"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4438414,
+            48.7533319
+          ],
+          [
+            -122.444407,
+            48.7533472
+          ],
+          [
+            -122.4447168,
+            48.7533631
+          ],
+          [
+            -122.4448911,
+            48.7533825
+          ],
+          [
+            -122.444913,
+            48.7533893
+          ],
+          [
+            -122.4449579,
+            48.7534088
+          ],
+          [
+            -122.4449968,
+            48.7534155
+          ],
+          [
+            -122.4450259,
+            48.7534149
+          ],
+          [
+            -122.4450734,
+            48.7534055
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1193444620",
+      "properties": {
+        "name": "Unnamed Trail (1193444620)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 129.67,
+        "oneway": "no",
+        "surface": "dirt",
+        "osm_id": "1193444620",
+        "tags": {
+          "bicycle": "yes",
+          "foot": "yes",
+          "highway": "path",
+          "informal": "yes",
+          "lit": "no",
+          "surface": "dirt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4373204,
+            48.7505909
+          ],
+          [
+            -122.4373032,
+            48.75047
+          ],
+          [
+            -122.4372801,
+            48.7498756
+          ],
+          [
+            -122.4373313,
+            48.7494671
+          ],
+          [
+            -122.4373558,
+            48.7494303
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1193465528",
+      "properties": {
+        "name": "Unnamed Trail (1193465528)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 33.61,
+        "oneway": "no",
+        "surface": "dirt",
+        "osm_id": "1193465528",
+        "tags": {
+          "highway": "path",
+          "informal": "yes",
+          "surface": "dirt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4335259,
+            48.75162
+          ],
+          [
+            -122.4334083,
+            48.751628
+          ],
+          [
+            -122.4332439,
+            48.7516496
+          ],
+          [
+            -122.4330762,
+            48.7516764
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1193488868",
+      "properties": {
+        "name": "Unnamed Trail (1193488868)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 105.4,
+        "oneway": "no",
+        "surface": "dirt",
+        "osm_id": "1193488868",
+        "tags": {
+          "highway": "path",
+          "informal": "yes",
+          "lit": "no",
+          "surface": "dirt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4273669,
+            48.7514438
+          ],
+          [
+            -122.4273117,
+            48.7515341
+          ],
+          [
+            -122.4272831,
+            48.7516548
+          ],
+          [
+            -122.4271868,
+            48.7518013
+          ],
+          [
+            -122.4270269,
+            48.7519662
+          ],
+          [
+            -122.4268813,
+            48.7521151
+          ],
+          [
+            -122.4268191,
+            48.7522167
+          ],
+          [
+            -122.4268018,
+            48.7523022
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1300626401",
+      "properties": {
+        "name": "Unnamed Trail (1300626401)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 20.5,
+        "oneway": "no",
+        "surface": "dirt",
+        "osm_id": "1300626401",
+        "tags": {
+          "highway": "path",
+          "informal": "yes",
+          "lit": "no",
+          "surface": "dirt",
+          "width": "0.5"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4380652,
+            48.7551789
+          ],
+          [
+            -122.4379814,
+            48.7551782
+          ],
+          [
+            -122.4377896,
+            48.7551523
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1310983569",
+      "properties": {
+        "name": "Unnamed Trail (1310983569)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 25.92,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1310983569",
+        "tags": {
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.438126,
+            48.7546367
+          ],
+          [
+            -122.4380754,
+            48.7547455
+          ],
+          [
+            -122.4379912,
+            48.7548511
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1310988772",
+      "properties": {
+        "name": "Unnamed Trail (1310988772)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 45.83,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1310988772",
+        "tags": {
+          "highway": "path",
+          "informal": "yes",
+          "lit": "no"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4298232,
+            48.7498552
+          ],
+          [
+            -122.4296106,
+            48.7498289
+          ],
+          [
+            -122.4293753,
+            48.749791
+          ],
+          [
+            -122.4292139,
+            48.749764
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1309122610",
+      "properties": {
+        "name": "Unnamed Trail (1309122610)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 38.18,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1309122610",
+        "tags": {
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4072922,
+            48.7486333
+          ],
+          [
+            -122.4073762,
+            48.7487406
+          ],
+          [
+            -122.4074332,
+            48.74896
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1309122611",
+      "properties": {
+        "name": "Unnamed Trail (1309122611)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 163.03,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1309122611",
+        "tags": {
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4080827,
+            48.7489672
+          ],
+          [
+            -122.4079768,
+            48.7490734
+          ],
+          [
+            -122.4080268,
+            48.7491353
+          ],
+          [
+            -122.407908,
+            48.7493002
+          ],
+          [
+            -122.4079393,
+            48.7493703
+          ],
+          [
+            -122.4078455,
+            48.7494198
+          ],
+          [
+            -122.4077955,
+            48.7495311
+          ],
+          [
+            -122.4078681,
+            48.7495475
+          ],
+          [
+            -122.4080043,
+            48.7495163
+          ],
+          [
+            -122.4080072,
+            48.7495475
+          ],
+          [
+            -122.4080753,
+            48.7495905
+          ],
+          [
+            -122.408096,
+            48.7496451
+          ],
+          [
+            -122.4079303,
+            48.7498149
+          ],
+          [
+            -122.4078622,
+            48.7499027
+          ],
+          [
+            -122.4078296,
+            48.7499846
+          ],
+          [
+            -122.4078267,
+            48.7500705
+          ],
+          [
+            -122.4078977,
+            48.750092
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1309122612",
+      "properties": {
+        "name": "Unnamed Trail (1309122612)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 128.17,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1309122612",
+        "tags": {
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4096971,
+            48.7489796
+          ],
+          [
+            -122.4096941,
+            48.7490421
+          ],
+          [
+            -122.4096379,
+            48.7491124
+          ],
+          [
+            -122.409629,
+            48.7492197
+          ],
+          [
+            -122.4096852,
+            48.7492997
+          ],
+          [
+            -122.4096468,
+            48.7494441
+          ],
+          [
+            -122.4096823,
+            48.749491
+          ],
+          [
+            -122.4096172,
+            48.7496197
+          ],
+          [
+            -122.4095491,
+            48.7496822
+          ],
+          [
+            -122.4094455,
+            48.7497466
+          ],
+          [
+            -122.409194,
+            48.7497446
+          ],
+          [
+            -122.4090637,
+            48.7498598
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1309122613",
+      "properties": {
+        "name": "Unnamed Trail (1309122613)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 20.74,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1309122613",
+        "tags": {
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4094455,
+            48.7497466
+          ],
+          [
+            -122.4094248,
+            48.7498246
+          ],
+          [
+            -122.4093331,
+            48.7498676
+          ],
+          [
+            -122.4093301,
+            48.7499007
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1309122614",
+      "properties": {
+        "name": "Unnamed Trail (1309122614)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 12.35,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1309122614",
+        "tags": {
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4094248,
+            48.7498246
+          ],
+          [
+            -122.4094603,
+            48.7498754
+          ],
+          [
+            -122.4094485,
+            48.74993
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1309122615",
+      "properties": {
+        "name": "Unnamed Trail (1309122615)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 625.14,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1309122615",
+        "tags": {
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4095437,
+            48.7489796
+          ],
+          [
+            -122.4094837,
+            48.7488081
+          ],
+          [
+            -122.4094613,
+            48.7487562
+          ],
+          [
+            -122.4094613,
+            48.7486969
+          ],
+          [
+            -122.4094275,
+            48.7486499
+          ],
+          [
+            -122.4094388,
+            48.7485782
+          ],
+          [
+            -122.4093825,
+            48.7485041
+          ],
+          [
+            -122.4093975,
+            48.7484645
+          ],
+          [
+            -122.4093301,
+            48.7483409
+          ],
+          [
+            -122.4092663,
+            48.7482445
+          ],
+          [
+            -122.4092588,
+            48.7481136
+          ],
+          [
+            -122.4092776,
+            48.7480542
+          ],
+          [
+            -122.4092588,
+            48.7479628
+          ],
+          [
+            -122.4092588,
+            48.7478367
+          ],
+          [
+            -122.4093113,
+            48.7476983
+          ],
+          [
+            -122.4092064,
+            48.7476316
+          ],
+          [
+            -122.4092926,
+            48.7475451
+          ],
+          [
+            -122.4093188,
+            48.7473869
+          ],
+          [
+            -122.4092913,
+            48.7473249
+          ],
+          [
+            -122.4092101,
+            48.7471422
+          ],
+          [
+            -122.4090602,
+            48.7470334
+          ],
+          [
+            -122.4091876,
+            48.7467986
+          ],
+          [
+            -122.4092101,
+            48.7466355
+          ],
+          [
+            -122.4091839,
+            48.7465613
+          ],
+          [
+            -122.4090189,
+            48.7464896
+          ],
+          [
+            -122.4089964,
+            48.7465341
+          ],
+          [
+            -122.4088765,
+            48.7465193
+          ],
+          [
+            -122.4088477,
+            48.7465481
+          ],
+          [
+            -122.4087753,
+            48.7466206
+          ],
+          [
+            -122.4087565,
+            48.7468011
+          ],
+          [
+            -122.408794,
+            48.7468802
+          ],
+          [
+            -122.4086291,
+            48.7470507
+          ],
+          [
+            -122.4086253,
+            48.7471249
+          ],
+          [
+            -122.4084829,
+            48.747204
+          ],
+          [
+            -122.4083292,
+            48.7473275
+          ],
+          [
+            -122.4083442,
+            48.7474017
+          ],
+          [
+            -122.4082205,
+            48.7475599
+          ],
+          [
+            -122.4082376,
+            48.7475777
+          ],
+          [
+            -122.4082917,
+            48.747634
+          ],
+          [
+            -122.4081418,
+            48.7479133
+          ],
+          [
+            -122.4080293,
+            48.7479751
+          ],
+          [
+            -122.4080256,
+            48.748032
+          ],
+          [
+            -122.4080968,
+            48.7480468
+          ],
+          [
+            -122.4081605,
+            48.7482347
+          ],
+          [
+            -122.4080031,
+            48.7482915
+          ],
+          [
+            -122.4079468,
+            48.7483805
+          ],
+          [
+            -122.4079993,
+            48.7484967
+          ],
+          [
+            -122.4079618,
+            48.7486623
+          ],
+          [
+            -122.4080181,
+            48.7488427
+          ],
+          [
+            -122.4079991,
+            48.7489663
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1309122616",
+      "properties": {
+        "name": "Unnamed Trail (1309122616)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 52.01,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1309122616",
+        "tags": {
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4077133,
+            48.747572
+          ],
+          [
+            -122.4079052,
+            48.7476059
+          ],
+          [
+            -122.4079128,
+            48.7475428
+          ],
+          [
+            -122.4080525,
+            48.7476199
+          ],
+          [
+            -122.4080707,
+            48.7475799
+          ],
+          [
+            -122.4081193,
+            48.7475709
+          ],
+          [
+            -122.4082376,
+            48.7475777
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1309122617",
+      "properties": {
+        "name": "Unnamed Trail (1309122617)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 49.41,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1309122617",
+        "tags": {
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4092913,
+            48.7473249
+          ],
+          [
+            -122.4094618,
+            48.7472568
+          ],
+          [
+            -122.4094996,
+            48.7472319
+          ],
+          [
+            -122.4096055,
+            48.7472219
+          ],
+          [
+            -122.4096849,
+            48.7472419
+          ],
+          [
+            -122.4097687,
+            48.7473266
+          ],
+          [
+            -122.4098445,
+            48.7473266
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "1309122618",
+      "properties": {
+        "name": "Unnamed Trail (1309122618)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Community Built)",
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 165.45,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "1309122618",
+        "tags": {
+          "access": "private",
+          "highway": "path",
+          "informal": "yes"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4098437,
+            48.7459729
+          ],
+          [
+            -122.4097265,
+            48.7459181
+          ],
+          [
+            -122.4096319,
+            48.7458184
+          ],
+          [
+            -122.4095374,
+            48.7457735
+          ],
+          [
+            -122.4093975,
+            48.7457959
+          ],
+          [
+            -122.4092047,
+            48.7458333
+          ],
+          [
+            -122.4091102,
+            48.7458433
+          ],
+          [
+            -122.4089174,
+            48.7459605
+          ],
+          [
+            -122.4087926,
+            48.7459605
+          ],
+          [
+            -122.4087321,
+            48.7461599
+          ],
+          [
+            -122.408683,
+            48.7462397
+          ],
+          [
+            -122.4087246,
+            48.7463319
+          ],
+          [
+            -122.4087624,
+            48.7463643
+          ],
+          [
+            -122.4087284,
+            48.7464641
+          ],
+          [
+            -122.4087964,
+            48.746479
+          ],
+          [
+            -122.4088477,
+            48.7465481
+          ]
+        ]
+      }
+    }
+  ]
+}
