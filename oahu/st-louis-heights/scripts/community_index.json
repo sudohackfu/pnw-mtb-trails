@@ -1,0 +1,139 @@
+{
+  "544969461": {
+    "override": true,
+    "override_reason": "Historic 1996 Grundig/UCI Mountain Bike World Cup Downhill Finals track; known locally as World Cup / Technos to Dole",
+    "name": "World Cup (Waahila DH)",
+    "difficulty": "Double Black Diamond",
+    "status": "Unsanctioned (Community Maintained)",
+    "stroke": "#000000",
+    "imba_scale": 4,
+    "research_sources": [
+      "1996 Grundig/UCI Downhill World Cup Finals archives",
+      "Local Oahu gravity builder consensus",
+      "Strava segment: Technos to Dole"
+    ]
+  },
+  "1545490968": {
+    "override": true,
+    "override_reason": "Community-vetted pirate downhill line: Ron's",
+    "name": "Ron's",
+    "difficulty": "Double Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 4,
+    "research_sources": [
+      "Local Oahu rider lore & builder archives"
+    ]
+  },
+  "1545490972": {
+    "override": true,
+    "override_reason": "Community-vetted pirate downhill line: Wedding Crashers",
+    "name": "Wedding Crashers",
+    "difficulty": "Double Black Diamond",
+    "status": "Unsanctioned (Community Built)",
+    "stroke": "#ea580c",
+    "imba_scale": 4,
+    "research_sources": [
+      "Local Oahu rider lore & builder archives"
+    ]
+  },
+  "547542860": {
+    "override": true,
+    "override_reason": "Rock-garden gravity descent dropping into Waiakeakua stream basin; known locally as Waterfall",
+    "name": "Waterfall",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Gravity Line)",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Local Oahu gravity community",
+      "Upper Manoa drainage logs"
+    ]
+  },
+  "544969459": {
+    "override": true,
+    "override_reason": "High-consequence rock slab and technical roll/drop feature at ridge crest",
+    "name": "Bravery Rock",
+    "difficulty": "Double Black Diamond",
+    "status": "Unsanctioned (Feature)",
+    "stroke": "#000000",
+    "imba_scale": 4,
+    "research_sources": [
+      "Local rider feature logs",
+      "Waahila ridge crest surveys"
+    ]
+  },
+  "544969460": {
+    "override": true,
+    "override_reason": "Western contouring technical singletrack parallel to main DH ridge",
+    "name": "Kalepohaku Lower Trail",
+    "difficulty": "Black Diamond",
+    "status": "Unsanctioned (Community Maintained)",
+    "stroke": "#dc2626",
+    "imba_scale": 3,
+    "research_sources": [
+      "Local trail logs",
+      "Na Ala Hele unadopted singletrack inventory"
+    ]
+  },
+  "1355016544": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Candidate Spur (1355016544)",
+    "difficulty": "Black Diamond",
+    "status": "Under Review",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1354310705": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Candidate Spur (1354310705)",
+    "difficulty": "Black Diamond",
+    "status": "Under Review",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1354356569": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Candidate Spur (1354356569)",
+    "difficulty": "Black Diamond",
+    "status": "Under Review",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1550956665": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Candidate Spur (1550956665)",
+    "difficulty": "Black Diamond",
+    "status": "Under Review",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  },
+  "1550956667": {
+    "override": false,
+    "override_reason": "Candidate informal spur under review",
+    "name": "Candidate Spur (1550956667)",
+    "difficulty": "Black Diamond",
+    "status": "Under Review",
+    "stroke": "#ea580c",
+    "imba_scale": 3,
+    "research_sources": [
+      "OSM informal tag audit"
+    ]
+  }
+}
