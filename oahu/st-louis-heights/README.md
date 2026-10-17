@@ -50,11 +50,11 @@ We implement the standard **Programmatic First -> Manual Review & Triage -> Exte
 
 1. **Programmatic First:** High-trust public trail names (*Seven Bridges Trail, Kalepohaku Lower Trail, Lanipo Ridge Trail*) are parsed automatically.
 2. **Community Index Override (community_index.json):** Underground downhill tracks intentionally unlabelled or obfuscated in public APIs are vetted against local rider lore and historical archives:
-   * **World Cup (Wa?ahila DH):** The 1996 UCI World Cup downhill race course.
-   * **Ron's:** Raw fall-line technical root chute.
-   * **Wedding Crashers:** Steep bandit singletrack dropping through the mid-slope timber.
-   * **Waterfall:** High-consequence technical descent dropping into the Wai?akeakua stream basin.
-   * **Bravery Rock:** High-consequence rock roll/drop feature at the ridge crest.
+   * **World Cup (Wa?ahila DH):** The 1996 UCI World Cup downhill race course (Double Black Diamond).
+   * **Ron's:** Raw fall-line technical root chute (Black Diamond / Spicy Blue tier).
+   * **Wedding Crashers:** Steep bandit singletrack dropping through the mid-slope timber (Black Diamond).
+   * **Waterfall:** High-consequence technical descent dropping into the Wai?akeakua stream basin (Black Diamond).
+   * **Bravery Rock:** High-consequence rock roll/drop feature at the ridge crest (Double Black Diamond).
 3. **Exclusion of Unverified Placeholders:** Candidate spurs under review ("override": false) and urban walkways are excluded from export so zero generic IDs reach the maps.
 
 ---
@@ -64,8 +64,8 @@ We implement the standard **Programmatic First -> Manual Review & Triage -> Exte
 | Way ID | Community Name | Difficulty | Status | Research Sources & Rationale |
 | :--- | :--- | :--- | :--- | :--- |
 | 544969461 | **World Cup (Waahila DH)** | Double Black Diamond | Unsanctioned (Community Maintained) | 1996 Grundig/UCI Downhill World Cup Finals archives; Local Oahu gravity builder consensus; Strava segment: Technos to Dole |
-| 1545490968 | **Ron's** | Double Black Diamond | Unsanctioned (Community Built) | Local Oahu rider lore & builder archives |
-| 1545490972 | **Wedding Crashers** | Double Black Diamond | Unsanctioned (Community Built) | Local Oahu rider lore & builder archives |
+| 1545490968 | **Ron's** | Black Diamond | Unsanctioned (Community Built) | Local Oahu rider lore & builder archives |
+| 1545490972 | **Wedding Crashers** | Black Diamond | Unsanctioned (Community Built) | Local Oahu rider lore & builder archives |
 | 547542860 | **Waterfall** | Black Diamond | Unsanctioned (Gravity Line) | Local Oahu gravity community; Upper Manoa drainage logs |
 | 544969459 | **Bravery Rock** | Double Black Diamond | Unsanctioned (Feature) | Local rider feature logs; Waahila ridge crest surveys |
 | 544969460 | **Kalepohaku Lower Trail** | Black Diamond | Unsanctioned (Community Maintained) | Local trail logs; Na Ala Hele unadopted singletrack inventory |
@@ -85,8 +85,8 @@ We implement the standard **Programmatic First -> Manual Review & Triage -> Exte
 
 | Rating Tier | IMBA Scale | Hex Color | Count | Key Trails |
 | :--- | :--- | :--- | :--- | :--- |
-| **Double Black** | Level 4 | #000000 | 5 segments | *World Cup (Waahila DH), Ron's, Wedding Crashers, Bravery Rock* |
-| **Black Diamond** | Level 3 | #dc2626 | 10 segments | *Waterfall, Kalepohaku Lower Trail, Seven Bridges Trail & Connector, Manoa Middle Ridge* |
+| **Double Black** | Level 4 | #000000 | 2 segments | *World Cup (Waahila DH), Bravery Rock* |
+| **Black Diamond** | Level 3 | #dc2626 | 13 segments | *Ron's, Wedding Crashers, Waterfall, Kalepohaku Lower Trail, Seven Bridges Trail & Connector, Manoa Middle Ridge* |
 | **Blue Square** | Level 2 | #0284c7 | 5 segments | *Naniuapo Falls Trail, Manoa Tunnel Trail, Makiki Valley Trail connectors* |
 
 ---

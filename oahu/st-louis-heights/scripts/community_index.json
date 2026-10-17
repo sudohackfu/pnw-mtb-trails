@@ -15,24 +15,24 @@
   },
   "1545490968": {
     "override": true,
-    "override_reason": "Community-vetted pirate downhill line: Ron's",
+    "override_reason": "Community-vetted pirate downhill line: Ron's (conservative Black Diamond / technical singletrack tier)",
     "name": "Ron's",
-    "difficulty": "Double Black Diamond",
+    "difficulty": "Black Diamond",
     "status": "Unsanctioned (Community Built)",
-    "stroke": "#ea580c",
-    "imba_scale": 4,
+    "stroke": "#dc2626",
+    "imba_scale": 3,
     "research_sources": [
       "Local Oahu rider lore & builder archives"
     ]
   },
   "1545490972": {
     "override": true,
-    "override_reason": "Community-vetted pirate downhill line: Wedding Crashers",
+    "override_reason": "Community-vetted pirate downhill line: Wedding Crashers (conservative Black Diamond tier)",
     "name": "Wedding Crashers",
-    "difficulty": "Double Black Diamond",
+    "difficulty": "Black Diamond",
     "status": "Unsanctioned (Community Built)",
-    "stroke": "#ea580c",
-    "imba_scale": 4,
+    "stroke": "#dc2626",
+    "imba_scale": 3,
     "research_sources": [
       "Local Oahu rider lore & builder archives"
     ]

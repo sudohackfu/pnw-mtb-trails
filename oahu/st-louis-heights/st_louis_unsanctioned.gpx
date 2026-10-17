@@ -100,8 +100,8 @@
     </trkseg></trk>
   <trk>
     <name><![CDATA[Manoa Middle Ridge Trail]]></name>
-    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Maintained)]]></desc>
-    <extensions><tf:difficulty>3</tf:difficulty><tf:color>#dc2626</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#dc2626</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
+    <desc><![CDATA[Difficulty: Blue Square | Status: Unsanctioned (Community Maintained)]]></desc>
+    <extensions><tf:difficulty>2</tf:difficulty><tf:color>#0284c7</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#0284c7</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
     <trkseg>
       <trkpt lat="21.341172" lon="-157.7869414"/>
       <trkpt lat="21.3406431" lon="-157.7872525"/>
@@ -141,8 +141,8 @@
     </trkseg></trk>
   <trk>
     <name><![CDATA[Seven Bridges Connector]]></name>
-    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Maintained)]]></desc>
-    <extensions><tf:difficulty>3</tf:difficulty><tf:color>#dc2626</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#dc2626</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
+    <desc><![CDATA[Difficulty: Blue Square | Status: Unsanctioned (Community Maintained)]]></desc>
+    <extensions><tf:difficulty>2</tf:difficulty><tf:color>#0284c7</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#0284c7</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
     <trkseg>
       <trkpt lat="21.3282851" lon="-157.7923787"/>
       <trkpt lat="21.3282327" lon="-157.7923572"/>
@@ -158,8 +158,8 @@
     </trkseg></trk>
   <trk>
     <name><![CDATA[Seven Bridges Trail Link]]></name>
-    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Maintained)]]></desc>
-    <extensions><tf:difficulty>3</tf:difficulty><tf:color>#dc2626</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#dc2626</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
+    <desc><![CDATA[Difficulty: Blue Square | Status: Unsanctioned (Community Maintained)]]></desc>
+    <extensions><tf:difficulty>2</tf:difficulty><tf:color>#0284c7</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#0284c7</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
     <trkseg>
       <trkpt lat="21.3281992" lon="-157.7999774"/>
       <trkpt lat="21.3282414" lon="-157.7999425"/>
@@ -170,8 +170,8 @@
     </trkseg></trk>
   <trk>
     <name><![CDATA[Seven Bridges Trail]]></name>
-    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Maintained)]]></desc>
-    <extensions><tf:difficulty>3</tf:difficulty><tf:color>#dc2626</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#dc2626</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
+    <desc><![CDATA[Difficulty: Blue Square | Status: Unsanctioned (Community Maintained)]]></desc>
+    <extensions><tf:difficulty>2</tf:difficulty><tf:color>#0284c7</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#0284c7</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
     <trkseg>
       <trkpt lat="21.3281144" lon="-157.8008599"/>
       <trkpt lat="21.3280796" lon="-157.800603"/>
@@ -757,8 +757,8 @@
     </trkseg></trk>
   <trk>
     <name><![CDATA[Lanipo Ridge Trail]]></name>
-    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Maintained)]]></desc>
-    <extensions><tf:difficulty>3</tf:difficulty><tf:color>#dc2626</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#dc2626</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
+    <desc><![CDATA[Difficulty: Blue Square | Status: Unsanctioned (Community Maintained)]]></desc>
+    <extensions><tf:difficulty>2</tf:difficulty><tf:color>#0284c7</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#0284c7</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
     <trkseg>
       <trkpt lat="21.2973405" lon="-157.7856153"/>
       <trkpt lat="21.2974277" lon="-157.7855399"/>
@@ -1194,8 +1194,8 @@
     </trkseg></trk>
   <trk>
     <name><![CDATA[Seven Bridges Trail Link]]></name>
-    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Maintained)]]></desc>
-    <extensions><tf:difficulty>3</tf:difficulty><tf:color>#dc2626</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#dc2626</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
+    <desc><![CDATA[Difficulty: Blue Square | Status: Unsanctioned (Community Maintained)]]></desc>
+    <extensions><tf:difficulty>2</tf:difficulty><tf:color>#0284c7</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#0284c7</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
     <trkseg>
       <trkpt lat="21.3286369" lon="-157.7937348"/>
       <trkpt lat="21.3287091" lon="-157.7936441"/>
@@ -1248,8 +1248,8 @@
     </trkseg></trk>
   <trk>
     <name><![CDATA[Seven Bridges Trail]]></name>
-    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Maintained)]]></desc>
-    <extensions><tf:difficulty>3</tf:difficulty><tf:color>#dc2626</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#dc2626</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
+    <desc><![CDATA[Difficulty: Blue Square | Status: Unsanctioned (Community Maintained)]]></desc>
+    <extensions><tf:difficulty>2</tf:difficulty><tf:color>#0284c7</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#0284c7</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
     <trkseg>
       <trkpt lat="21.3283076" lon="-157.7918798"/>
       <trkpt lat="21.3283526" lon="-157.7917027"/>
@@ -1257,16 +1257,16 @@
     </trkseg></trk>
   <trk>
     <name><![CDATA[Seven Bridges Trail]]></name>
-    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Maintained)]]></desc>
-    <extensions><tf:difficulty>3</tf:difficulty><tf:color>#dc2626</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#dc2626</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
+    <desc><![CDATA[Difficulty: Blue Square | Status: Unsanctioned (Community Maintained)]]></desc>
+    <extensions><tf:difficulty>2</tf:difficulty><tf:color>#0284c7</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#0284c7</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
     <trkseg>
       <trkpt lat="21.3282901" lon="-157.7920514"/>
       <trkpt lat="21.3283076" lon="-157.7918798"/>
     </trkseg></trk>
   <trk>
     <name><![CDATA[Ron's]]></name>
-    <desc><![CDATA[Difficulty: Double Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
-    <extensions><tf:difficulty>4</tf:difficulty><tf:color>#ea580c</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#ea580c</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions><tf:difficulty>3</tf:difficulty><tf:color>#dc2626</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#dc2626</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
     <trkseg>
       <trkpt lat="21.2987188" lon="-157.8102446"/>
       <trkpt lat="21.2987725" lon="-157.8101096"/>
@@ -1296,8 +1296,8 @@
     </trkseg></trk>
   <trk>
     <name><![CDATA[Wedding Crashers]]></name>
-    <desc><![CDATA[Difficulty: Double Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
-    <extensions><tf:difficulty>4</tf:difficulty><tf:color>#ea580c</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#ea580c</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
+    <desc><![CDATA[Difficulty: Black Diamond | Status: Unsanctioned (Community Built)]]></desc>
+    <extensions><tf:difficulty>3</tf:difficulty><tf:color>#dc2626</tf:color><gpxx:TrackExtension><gpxx:DisplayColor>#dc2626</gpxx:DisplayColor></gpxx:TrackExtension></extensions>
     <trkseg>
       <trkpt lat="21.3015465" lon="-157.8088792"/>
       <trkpt lat="21.3015474" lon="-157.8089831"/>

@@ -86,11 +86,6 @@ def derive_difficulty(tags, name):
         except ValueError:
             pass
 
-    n = name.lower()
-    if any(k in n for k in ['world cup', 'bravery rock', 'ron', 'wedding', 'extreme']):
-        return 4, 'Double Black Diamond', '#000000'
-    if any(k in n for k in ['waterfall', 'chute', 'kalepohaku', 'seven bridges', 'ridge']):
-        return 3, 'Black Diamond', '#dc2626'
     if tags.get('informal') == 'yes':
         return 3, 'Black Diamond', '#dc2626'
         
