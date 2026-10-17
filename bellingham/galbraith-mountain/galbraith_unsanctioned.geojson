@@ -8,8 +8,8 @@
         "name": "Old Keystone",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Abandoned / Decommissioned)",
-        "difficulty": "Black Diamond",
-        "imba_scale": 3,
+        "difficulty": "Blue Square",
+        "imba_scale": 2,
         "stroke": "#475569",
         "stroke-width": 3.5,
         "length_m": 142.27,
@@ -47,7 +47,7 @@
       "type": "Feature",
       "id": "283336485",
       "properties": {
-        "name": "Unnamed Trail (283336485)",
+        "name": "Hooty Hoot Link",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -212,8 +212,8 @@
         "name": "Private Trail",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Access: private)",
-        "difficulty": "Black Diamond",
-        "imba_scale": 3,
+        "difficulty": "Blue Square",
+        "imba_scale": 2,
         "stroke": "#ea580c",
         "stroke-width": 3.5,
         "length_m": 146.3,
@@ -281,8 +281,8 @@
         "name": "Scorpion (old)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Abandoned / Decommissioned)",
-        "difficulty": "Double Black Diamond",
-        "imba_scale": 4,
+        "difficulty": "Black Diamond",
+        "imba_scale": 3,
         "stroke": "#475569",
         "stroke-width": 3.5,
         "length_m": 203.3,
@@ -367,8 +367,8 @@
         "name": "Private Trail",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Access: private)",
-        "difficulty": "Black Diamond",
-        "imba_scale": 3,
+        "difficulty": "Blue Square",
+        "imba_scale": 2,
         "stroke": "#ea580c",
         "stroke-width": 3.5,
         "length_m": 102.32,
@@ -424,8 +424,8 @@
         "name": "Coyote Ripp",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Abandoned / Decommissioned)",
-        "difficulty": "Black Diamond",
-        "imba_scale": 3,
+        "difficulty": "Blue Square",
+        "imba_scale": 2,
         "stroke": "#475569",
         "stroke-width": 3.5,
         "length_m": 325.65,
@@ -543,9 +543,128 @@
     },
     {
       "type": "Feature",
+      "id": "321362895",
+      "properties": {
+        "name": "Up 2 Something Link",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Abandoned / Decommissioned)",
+        "difficulty": "Blue Square",
+        "imba_scale": 2,
+        "stroke": "#475569",
+        "stroke-width": 3.5,
+        "length_m": 454.55,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "321362895",
+        "tags": {
+          "abandoned:highway": "track",
+          "highway": "path",
+          "trail_visibility": "bad"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4206369,
+            48.7360525
+          ],
+          [
+            -122.4204529,
+            48.7359243
+          ],
+          [
+            -122.4203484,
+            48.7358182
+          ],
+          [
+            -122.420183,
+            48.73559
+          ],
+          [
+            -122.420003,
+            48.735482
+          ],
+          [
+            -122.419911,
+            48.735448
+          ],
+          [
+            -122.419598,
+            48.735404
+          ],
+          [
+            -122.419514,
+            48.735381
+          ],
+          [
+            -122.419428,
+            48.735333
+          ],
+          [
+            -122.419363,
+            48.735245
+          ],
+          [
+            -122.419267,
+            48.73486
+          ],
+          [
+            -122.419172,
+            48.734604
+          ],
+          [
+            -122.419125,
+            48.734545
+          ],
+          [
+            -122.418991,
+            48.73448
+          ],
+          [
+            -122.418905,
+            48.734391
+          ],
+          [
+            -122.418826,
+            48.734153
+          ],
+          [
+            -122.418774,
+            48.733859
+          ],
+          [
+            -122.418772,
+            48.733249
+          ],
+          [
+            -122.418735,
+            48.733091
+          ],
+          [
+            -122.418589,
+            48.732841
+          ],
+          [
+            -122.418505,
+            48.73275
+          ],
+          [
+            -122.418402,
+            48.732704
+          ],
+          [
+            -122.4181664,
+            48.7326817
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "321756754",
       "properties": {
-        "name": "Unnamed Trail (321756754)",
+        "name": "Singletrack (321756754)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -630,7 +749,7 @@
       "type": "Feature",
       "id": "534628746",
       "properties": {
-        "name": "Unnamed Trail (534628746)",
+        "name": "Boulder Bend Trail Link",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -693,9 +812,57 @@
     },
     {
       "type": "Feature",
+      "id": "563916015",
+      "properties": {
+        "name": "Singletrack (563916015)",
+        "system": "Galbraith Mountain",
+        "status": "Unsanctioned (Access: private)",
+        "difficulty": "Blue Square",
+        "imba_scale": 2,
+        "stroke": "#ea580c",
+        "stroke-width": 3.5,
+        "length_m": 199.79,
+        "oneway": "no",
+        "surface": "",
+        "osm_id": "563916015",
+        "tags": {
+          "access": "private",
+          "bicycle": "yes",
+          "foot": "yes",
+          "highway": "path"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.414703,
+            48.75181
+          ],
+          [
+            -122.414761,
+            48.752149
+          ],
+          [
+            -122.4147,
+            48.752409
+          ],
+          [
+            -122.4148,
+            48.752817
+          ],
+          [
+            -122.415416,
+            48.753482
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "1193444620",
       "properties": {
-        "name": "Unnamed Trail (1193444620)",
+        "name": "Singletrack (1193444620)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -745,7 +912,7 @@
       "type": "Feature",
       "id": "1193465528",
       "properties": {
-        "name": "Unnamed Trail (1193465528)",
+        "name": "Singletrack (1193465528)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -788,7 +955,7 @@
       "type": "Feature",
       "id": "1193488868",
       "properties": {
-        "name": "Unnamed Trail (1193488868)",
+        "name": "Singletrack (1193488868)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -848,7 +1015,7 @@
       "type": "Feature",
       "id": "1300626401",
       "properties": {
-        "name": "Unnamed Trail (1300626401)",
+        "name": "Singletrack (1300626401)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -889,7 +1056,7 @@
       "type": "Feature",
       "id": "1310983569",
       "properties": {
-        "name": "Unnamed Trail (1310983569)",
+        "name": "Singletrack (1310983569)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -927,7 +1094,7 @@
       "type": "Feature",
       "id": "1310988772",
       "properties": {
-        "name": "Unnamed Trail (1310988772)",
+        "name": "Singletrack (1310988772)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -970,7 +1137,7 @@
       "type": "Feature",
       "id": "1309122610",
       "properties": {
-        "name": "Unnamed Trail (1309122610)",
+        "name": "Euclid Trail Link",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -1008,7 +1175,7 @@
       "type": "Feature",
       "id": "1309122611",
       "properties": {
-        "name": "Unnamed Trail (1309122611)",
+        "name": "Euclid Trail Link",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -1102,7 +1269,7 @@
       "type": "Feature",
       "id": "1309122612",
       "properties": {
-        "name": "Unnamed Trail (1309122612)",
+        "name": "Euclid Trail Link",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -1176,7 +1343,7 @@
       "type": "Feature",
       "id": "1309122613",
       "properties": {
-        "name": "Unnamed Trail (1309122613)",
+        "name": "Singletrack (1309122613)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -1218,7 +1385,7 @@
       "type": "Feature",
       "id": "1309122614",
       "properties": {
-        "name": "Unnamed Trail (1309122614)",
+        "name": "Singletrack (1309122614)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -1256,7 +1423,7 @@
       "type": "Feature",
       "id": "1309122615",
       "properties": {
-        "name": "Unnamed Trail (1309122615)",
+        "name": "Euclid Trail Link",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -1482,7 +1649,7 @@
       "type": "Feature",
       "id": "1309122616",
       "properties": {
-        "name": "Unnamed Trail (1309122616)",
+        "name": "Singletrack (1309122616)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -1536,7 +1703,7 @@
       "type": "Feature",
       "id": "1309122617",
       "properties": {
-        "name": "Unnamed Trail (1309122617)",
+        "name": "Singletrack (1309122617)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",
@@ -1590,7 +1757,7 @@
       "type": "Feature",
       "id": "1309122618",
       "properties": {
-        "name": "Unnamed Trail (1309122618)",
+        "name": "Singletrack (1309122618)",
         "system": "Galbraith Mountain",
         "status": "Unsanctioned (Community Built)",
         "difficulty": "Black Diamond",

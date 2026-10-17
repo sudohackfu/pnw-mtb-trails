@@ -1,47 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="TrailforksTrailBuilder"
-  xmlns="http://www.topografix.com/GPX/1/1"
-  xmlns:tf="http://trailforks.com/schema"
-  xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
-  <metadata>
-    <name>Exit 27 - Already Decommissioned</name>
-  </metadata>
+<gpx version="1.1" creator="Exit27DynamicBuilder" xmlns="http://www.topografix.com/GPX/1/1" xmlns:tf="http://www.trailforks.com" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <metadata><name>Exit 27 - ALREADY Decommissioned</name></metadata>
   <trk>
-    <name>Demolished Singletrack</name>
-    <desc>Difficulty: Black Diamond | Status: Decommissioned | Length: 392m</desc>
+    <name><![CDATA[Demolished Singletrack]]></name>
+    <desc><![CDATA[Status: ALREADY Decommissioned | Difficulty: Double Black Diamond]]></desc>
     <extensions>
-      <tf:title>Demolished Singletrack</tf:title>
-      <tf:difficulty>Black Diamond</tf:difficulty>
-      <tf:status>Decommissioned</tf:status>
+      <tf:difficulty>4</tf:difficulty>
       <tf:color>#475569</tf:color>
       <gpxx:TrackExtension>
-        <gpxx:DisplayColor>DarkGray</gpxx:DisplayColor>
+        <gpxx:DisplayColor>#475569</gpxx:DisplayColor>
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
-      <trkpt lat="47.498184" lon="-121.831160"></trkpt>
-      <trkpt lat="47.498267" lon="-121.830868"></trkpt>
-      <trkpt lat="47.498322" lon="-121.830710"></trkpt>
-      <trkpt lat="47.498377" lon="-121.830515"></trkpt>
-      <trkpt lat="47.498553" lon="-121.830389"></trkpt>
-      <trkpt lat="47.498655" lon="-121.830063"></trkpt>
-      <trkpt lat="47.498657" lon="-121.829681"></trkpt>
-      <trkpt lat="47.498578" lon="-121.829405"></trkpt>
-      <trkpt lat="47.498509" lon="-121.829084"></trkpt>
-      <trkpt lat="47.498481" lon="-121.828771"></trkpt>
-      <trkpt lat="47.498520" lon="-121.828636"></trkpt>
-      <trkpt lat="47.498630" lon="-121.828474"></trkpt>
-      <trkpt lat="47.498698" lon="-121.828348"></trkpt>
-      <trkpt lat="47.498682" lon="-121.828205"></trkpt>
-      <trkpt lat="47.498613" lon="-121.828039"></trkpt>
-      <trkpt lat="47.498553" lon="-121.827823"></trkpt>
-      <trkpt lat="47.498567" lon="-121.827661"></trkpt>
-      <trkpt lat="47.498610" lon="-121.827567"></trkpt>
-      <trkpt lat="47.498630" lon="-121.827413"></trkpt>
-      <trkpt lat="47.498701" lon="-121.827279"></trkpt>
-      <trkpt lat="47.498816" lon="-121.827173"></trkpt>
-      <trkpt lat="47.499001" lon="-121.827104"></trkpt>
-      <trkpt lat="47.499146" lon="-121.826862"></trkpt>
+      <trkpt lat="47.4981843" lon="-121.8311605"/>
+      <trkpt lat="47.4982672" lon="-121.8308683"/>
+      <trkpt lat="47.4983221" lon="-121.8307098"/>
+      <trkpt lat="47.4983771" lon="-121.8305146"/>
+      <trkpt lat="47.4985529" lon="-121.8303886"/>
+      <trkpt lat="47.4986545" lon="-121.8300634"/>
+      <trkpt lat="47.4986572" lon="-121.8296812"/>
+      <trkpt lat="47.4985776" lon="-121.8294048"/>
+      <trkpt lat="47.4985089" lon="-121.8290836"/>
+      <trkpt lat="47.4984814" lon="-121.8287706"/>
+      <trkpt lat="47.4985199" lon="-121.8286364"/>
+      <trkpt lat="47.4986298" lon="-121.8284738"/>
+      <trkpt lat="47.4986984" lon="-121.8283477"/>
+      <trkpt lat="47.498682" lon="-121.8282055"/>
+      <trkpt lat="47.4986133" lon="-121.8280388"/>
+      <trkpt lat="47.4985529" lon="-121.8278233"/>
+      <trkpt lat="47.4985666" lon="-121.8276607"/>
+      <trkpt lat="47.4986105" lon="-121.8275672"/>
+      <trkpt lat="47.4986298" lon="-121.8274127"/>
+      <trkpt lat="47.4987012" lon="-121.8272785"/>
+      <trkpt lat="47.4988165" lon="-121.8271728"/>
+      <trkpt lat="47.4990006" lon="-121.8271037"/>
+      <trkpt lat="47.4991457" lon="-121.8268615"/>
     </trkseg>
   </trk>
 </gpx>

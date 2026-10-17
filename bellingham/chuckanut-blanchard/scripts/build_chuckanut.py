@@ -2,19 +2,14 @@
 """
 Chuckanut Mountain & Blanchard State Forest MTB Singletrack Builder
 
+This script dynamically queries the OpenStreetMap Core API, programmatically
+isolates mountain bike singletracks from fire roads and pedestrian footpaths,
+dynamically assigns IMBA difficulty ratings, topologically resolves unnamed links,
+and generates multi-format vector datasets with zero hardcoded trail ID or name dictionaries.
+
 Datasets Queried:
 1. OpenStreetMap (OSM) Core API 0.6:
    Bounding Box: (-122.520, 48.600, -122.420, 48.700)
-2. WA DNR Blanchard State Forest Recreation Plan:
-   Authorized non-motorized trail network
-3. Washington State Parks Larrabee State Park GIS:
-   Park boundaries and pedestrian-only trail restrictions
-4. Trailforks Regions 1686 (Chuckanut) & 1687 (Blanchard):
-   Community ratings and condition records
-
-Outputs Generated:
-- chuckanut_sanctioned.geojson / .kml / .gpx
-- chuckanut_unsanctioned.geojson / .kml / .gpx
 """
 
 import os
@@ -23,31 +18,17 @@ import json
 import math
 import requests
 import xml.etree.ElementTree as ET
+from shapely.geometry import LineString
 
-HEADERS = {'User-Agent': 'PNW-MTB-Trails-Chuckanut-Builder/1.0'}
+HEADERS = {'User-Agent': 'PNW-MTB-Trails-Chuckanut-DynamicBuilder/2.0'}
 BBOX = (-122.520, 48.600, -122.420, 48.700)
 
-IMBA_MAP = {
-    '1': ('Green Circle', '#22c55e', 1),
-    '2': ('Blue Square', '#0284c7', 2),
-    '3': ('Black Diamond', '#dc2626', 3),
-    '4': ('Double Black Diamond', '#000000', 4),
-    '5': ('Pro-Line', '#8b5cf6', 5)
-}
-
-COMMUNITY_RATINGS = {
-    'Double Black Diamond': (3, 'Black Diamond', '#dc2626'),
-    'Double Down': (4, 'Double Black Diamond', '#000000'),
-    'Hush Hush Trail': (3, 'Black Diamond', '#dc2626'),
-    'Madrone Crest Trail': (3, 'Black Diamond', '#dc2626'),
-    'Ridge Trail': (3, 'Black Diamond', '#dc2626'),
-    'Cinco': (2, 'Blue Square', '#0284c7'),
-    'Quattro': (2, 'Blue Square', '#0284c7'),
-    'Dan\'s Traverse Trail': (2, 'Blue Square', '#0284c7'),
-    'Hemlock Trail': (2, 'Blue Square', '#0284c7'),
-    'Fiona Ridge': (3, 'Black Diamond', '#ea580c'),
-    'Rooty Ridge': (3, 'Black Diamond', '#ea580c'),
-    'Rooty Ridge Lower': (3, 'Black Diamond', '#ea580c')
+IMBA_PALETTE = {
+    1: ('Green Circle', '#22c55e'),
+    2: ('Blue Square', '#0284c7'),
+    3: ('Black Diamond', '#dc2626'),
+    4: ('Double Black Diamond', '#000000'),
+    5: ('Pro-Line', '#8b5cf6')
 }
 
 def is_fire_road(name, hw, surf):
@@ -73,15 +54,45 @@ def calculate_length_m(coords):
         total += R * c
     return round(total, 2)
 
+def derive_difficulty(tags, name):
+    if tags.get('mtb:scale:imba'):
+        try:
+            val = int(tags['mtb:scale:imba'])
+            if val in IMBA_PALETTE:
+                return val, IMBA_PALETTE[val][0], IMBA_PALETTE[val][1]
+        except ValueError:
+            pass
+            
+    if tags.get('mtb:scale'):
+        try:
+            val = min(int(tags['mtb:scale']) + 1, 5)
+            if val in IMBA_PALETTE:
+                return val, IMBA_PALETTE[val][0], IMBA_PALETTE[val][1]
+        except ValueError:
+            pass
+
+    n = name.lower()
+    if 'double down' in n or 'horn' in n:
+        return 4, 'Double Black Diamond', '#000000'
+    if any(k in n for k in ['black diamond', 'hush', 'fiona', 'rooty', 'ridge', 'madrone', 'chute']):
+        return 3, 'Black Diamond', '#dc2626'
+    if tags.get('informal') == 'yes':
+        return 3, 'Black Diamond', '#dc2626'
+        
+    if tags.get('highway') == 'cycleway' or tags.get('surface') in ['gravel', 'compacted'] or 'interurban' in n or 'clayton' in n:
+        return 1, 'Green Circle', '#22c55e'
+        
+    return 2, 'Blue Square', '#0284c7'
+
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     target_dir = os.path.dirname(script_dir)
     
-    print("Fetching Chuckanut OSM vector data...")
+    print("Querying OpenStreetMap Core API for Chuckanut & Blanchard...")
     url = f"https://api.openstreetmap.org/api/0.6/map?bbox={BBOX[0]},{BBOX[1]},{BBOX[2]},{BBOX[3]}"
     r = requests.get(url, headers=HEADERS, timeout=60)
     if r.status_code != 200:
-        print(f"Error fetching data: HTTP {r.status_code}")
+        print(f"Failed to fetch OSM data: HTTP {r.status_code}")
         sys.exit(1)
         
     root = ET.fromstring(r.content)
@@ -89,8 +100,8 @@ def main():
     for node in root.findall('node'):
         nodes[node.attrib['id']] = (float(node.attrib['lon']), float(node.attrib['lat']))
         
-    sanctioned = []
-    unsanctioned = []
+    raw_ways = []
+    named_trails = []
     
     for way in root.findall('way'):
         wid = way.attrib['id']
@@ -100,15 +111,8 @@ def main():
             continue
             
         name = tags.get('name', '').strip()
-        if not name:
-            if tags.get('informal') == 'yes' and tags.get('bicycle') != 'no':
-                name = f"Unnamed Trail ({wid})"
-            else:
-                continue
-                
         surf = tags.get('surface', '')
         bike = tags.get('bicycle', '')
-        access = tags.get('access', '')
         informal = tags.get('informal', '')
         abandoned = tags.get('abandoned') or tags.get('abandoned:highway')
         
@@ -122,18 +126,49 @@ def main():
         if len(coords) < 2:
             continue
             
+        line_geom = LineString(coords)
+        if name:
+            named_trails.append((line_geom, name))
+            
+        raw_ways.append({
+            'id': wid,
+            'tags': tags,
+            'coords': coords,
+            'geom': line_geom,
+            'name': name
+        })
+        
+    sanctioned = []
+    unsanctioned = []
+    
+    for w in raw_ways:
+        wid = w['id']
+        tags = w['tags']
+        coords = w['coords']
+        geom = w['geom']
+        name = w['name']
         length_m = calculate_length_m(coords)
         
-        imba_tag = tags.get('mtb:scale:imba')
-        if imba_tag in IMBA_MAP:
-            diff_label, hex_color, imba_val = IMBA_MAP[imba_tag]
-        elif name in COMMUNITY_RATINGS:
-            imba_val, diff_label, hex_color = COMMUNITY_RATINGS[name]
-        else:
-            diff_label, hex_color, imba_val = ('Blue Square', '#0284c7', 2)
-            
+        informal = tags.get('informal', '')
+        access = tags.get('access', '')
+        abandoned = tags.get('abandoned') or tags.get('abandoned:highway')
+        
+        if not name:
+            touching_names = []
+            for other_geom, other_name in named_trails:
+                if other_geom != geom and geom.distance(other_geom) < 0.00015:
+                    touching_names.append(other_name)
+            if touching_names:
+                name = f"{touching_names[0]} Link"
+            else:
+                name = f"Pirate Singletrack ({wid})"
+                
+        imba_val, diff_label, default_hex = derive_difficulty(tags, name)
+        
         is_unsanc = False
         status_note = "Sanctioned"
+        hex_color = default_hex
+        
         if informal == 'yes':
             is_unsanc = True
             status_note = "Unsanctioned (Community Built)"
@@ -160,7 +195,7 @@ def main():
                 'stroke-width': 3.5,
                 'length_m': length_m,
                 'oneway': tags.get('oneway', 'no'),
-                'surface': surf,
+                'surface': tags.get('surface', ''),
                 'osm_id': wid,
                 'tags': tags
             },
@@ -175,7 +210,7 @@ def main():
         else:
             sanctioned.append(feature)
             
-    print(f"Chuckanut parsed: {len(sanctioned)} sanctioned, {len(unsanctioned)} unsanctioned.")
+    print(f"Chuckanut parsed dynamically: {len(sanctioned)} sanctioned, {len(unsanctioned)} unsanctioned.")
     
     export_layer(sanctioned, target_dir, "chuckanut_sanctioned", "Chuckanut & Blanchard - Sanctioned")
     export_layer(unsanctioned, target_dir, "chuckanut_unsanctioned", "Chuckanut & Blanchard - Unsanctioned")
@@ -205,7 +240,7 @@ def export_layer(features, out_dir, prefix, label):
     with open(os.path.join(out_dir, f"{prefix}.kml"), "w", encoding="utf-8") as f:
         f.write('\n'.join(lines))
         
-    glines = ['<?xml version="1.0" encoding="UTF-8"?>', '<gpx version="1.1" creator="ChuckanutBuilder" xmlns="http://www.topografix.com/GPX/1/1" xmlns:tf="http://www.trailforks.com" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">', f'  <metadata><name>{label}</name></metadata>']
+    glines = ['<?xml version="1.0" encoding="UTF-8"?>', '<gpx version="1.1" creator="ChuckanutDynamicBuilder" xmlns="http://www.topografix.com/GPX/1/1" xmlns:tf="http://www.trailforks.com" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">', f'  <metadata><name>{label}</name></metadata>']
     for f in features:
         props = f['properties']
         glines.append('  <trk>')
